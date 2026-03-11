@@ -2,6 +2,7 @@
   --color-white: #fff;
   --color-black: #1a1a1a;
   --color-gray: rgba(255, 255, 255, 0.2);
+  --color-gray-2: rgba(255, 255, 255, 0.5);
 }
 
 *,
@@ -91,6 +92,7 @@ body {
   max-width: 1463px;
   font-size: 128px;
   font-weight: 500;
+  font-family: "Nata Sans", sans-serif;
 }
 
 .header__text {
@@ -183,4 +185,48 @@ section {
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.benefits__cards {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.benefits__card {
+  width: 587px;
+  background: linear-gradient(
+    to top,
+    rgba(36, 36, 36, 1) 0%,
+    rgba(118, 23, 30, 1) 25%,
+    rgba(194, 11, 25, 1) 50%,
+    rgba(118, 23, 30, 1) 75%,
+    rgba(36, 36, 36, 1) 100%
+  );
+  border-radius: 20px;
+  margin-top: 60px;
+}
+
+.benefits__card-img {
+  width: 100%;
+}
+
+.benefits__card-content {
+  margin-top: 40px;
+  padding: 0 17px 35px 36px;
+}
+
+.benefits__card-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.benefits__card-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-gray-2);
+  max-width: 518px;
 }
