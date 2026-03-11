@@ -1,6 +1,7 @@
 :root {
   --color-white: #fff;
   --color-black: #1a1a1a;
+  --color-gray: rgba(255, 255, 255, 0.2);
 }
 
 *,
@@ -26,7 +27,7 @@ body {
 }
 
 .container {
-  max-width: 1800px;
+  max-width: 1805px;
   width: 98%;
   margin: 0 auto;
 }
@@ -47,6 +48,8 @@ body {
   padding: 15px 49px;
   font-size: 12px;
   font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .header__nav-list {
@@ -60,6 +63,7 @@ body {
   color: var(--color-white);
   font-size: 12px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .header__arrows {
@@ -93,4 +97,90 @@ body {
   max-width: 321px;
   margin-bottom: 17px;
   font-weight: 500;
+}
+
+section {
+  margin-top: 200px;
+}
+
+.title {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 140px;
+}
+
+.badge {
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--color-gray);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 12px 0;
+}
+
+.title-content {
+  font-size: 80px;
+  font-weight: 600;
+  max-width: 1114px;
+}
+
+.portofolio__cards {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  gap: 40px 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+  max-width: 892px;
+}
+
+.card__img {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 780px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card__chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.chip {
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid var(--color-gray);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.portfolio__btn {
+  margin-top: 60px;
+  width: 100%;
+  padding: 50px 0;
+  background: transparent;
+  text-transform: uppercase;
+  border: 1px solid var(--color-gray);
+  border-radius: 20px;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
 }
