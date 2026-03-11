@@ -4,6 +4,7 @@
   --color-black-2: #171717;
   --color-gray: rgba(255, 255, 255, 0.2);
   --color-gray-2: rgba(255, 255, 255, 0.5);
+  --color-gray-3: #505050;
 }
 
 *,
@@ -13,10 +14,16 @@
   padding: 0;
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
   background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
   color: var(--color-white);
 }
 
@@ -260,7 +267,7 @@ footer {
   padding: 30px 40px;
   display: flex;
   justify-content: space-between;
-  width: 1696px;
+  width: 85%;
   margin: 0 auto;
   border-radius: 20px;
   position: absolute;
@@ -284,4 +291,110 @@ footer {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer__logo-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-gray);
+  max-width: 160px;
+  margin-top: 32px;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+}
+
+.contacts__tel {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contacts__email {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contacts__social {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contacts__btn {
+  padding: 24px 77px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  width: 290px;
+  cursor: pointer;
+}
+
+.footer__other {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 110px;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer__sub-title {
+  color: var(--color-gray-3);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.footer__items {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.services__list {
+  display: flex;
+  gap: 60px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer__bottom {
+  margin-top: 96px;
+  margin-bottom: 49px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__inn,
+.footer__policy {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer__policy {
+    text-decoration: underline;
 }
