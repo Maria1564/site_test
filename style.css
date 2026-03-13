@@ -90,6 +90,12 @@ ul {
   position: relative;
 }
 
+.header__nav-item_with-star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .header__nav-item::after {
   position: absolute;
   bottom: -3px;
