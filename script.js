@@ -1,0 +1,15 @@
+const body = document.querySelector("body");
+const mobileMenu = body.querySelector(".mobile__menu");
+const btnOpenMenu = body.querySelector(".mobile__menu-btn");
+const btnCloseMenu = body.querySelector(".mobile__menu-cross");
+
+btnOpenMenu.addEventListener("click", () => {
+  console.log("click");
+  mobileMenu.style.display = "flex";
+  body.style.overflow = "hidden";
+});
+
+btnCloseMenu.addEventListener("click", () => {
+  mobileMenu.style.display = "none";
+  body.style.overflow = "auto";
+});

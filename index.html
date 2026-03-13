@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="mobile__menu">
+      <img class="mobile__menu-cross" src="img/cross.svg" alt="close" />
+      <ul class="mobile__menu-list">
+        <li><a href="#">кейсы</a></li>
+        <li><a href="#">услуги</a></li>
+        <li><a href="#">блог</a></li>
+        <li><a href="#">о нас</a></li>
+        <li><a href="#">школа дизайна</a></li>
+        <li><a href="#">контакты</a></li>
+      </ul>
+    </div>
     <header class="header">
       <div class="container">
         <nav class="header__nav">
@@ -16,13 +27,18 @@
             <img src="img/logo.svg" alt="logo" />
           </div>
           <a href="#" class="header__btn">Связаться с нами</a>
+          <div class="mobile__menu-btn"></div>
+
           <ul class="header__nav-list">
             <li class="header__nav-item"><a href="#">кейсы</a></li>
             <li class="header__nav-item"><a href="#">услуги</a></li>
             <li class="header__nav-item"><a href="#">блог</a></li>
             <li class="header__nav-item"><a href="#">о нас</a></li>
             <li class="header__nav-item header__nav-item_with-star">
-              <img src="img/star.svg" alt="star" width="8" height="8"/><a href="#">школа дизайна</a>
+              <img src="img/star.svg" alt="star" width="8" height="8" /><a
+                href="#"
+                >школа дизайна</a
+              >
             </li>
             <li class="header__nav-item"><a href="#">контакты</a></li>
           </ul>
@@ -298,5 +314,7 @@
         </div>
       </footer>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

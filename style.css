@@ -147,6 +147,38 @@ ul {
   max-width: 321px;
   margin-bottom: 17px;
   font-weight: 500;
+  line-height: 140%;
+}
+
+.mobile__menu-btn {
+  width: 55px;
+  height: 2px;
+  background-color: var(--color-white);
+  border-radius: 40px;
+  position: relative;
+  display: none;
+}
+
+.mobile__menu-btn::before {
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 2px;
+  background-color: var(--color-white);
+  border-radius: 40px;
+  top: -5px;
+  right: 0;
+}
+
+.mobile__menu-btn::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: var(--color-white);
+  border-radius: 40px;
+  top: 5px;
+  right: 0;
 }
 
 section,
@@ -253,7 +285,7 @@ footer {
 
 .benefits__cards {
   display: flex;
-  align-items: start;
+  align-items: stretch;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
@@ -328,6 +360,7 @@ footer {
   padding: 30px 40px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 85%;
   margin: 0 auto;
   border-radius: 20px;
@@ -493,4 +526,229 @@ footer {
 
 .footer__policy {
   text-decoration: underline;
+}
+
+.mobile__menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+  z-index: 40;
+  display: none;
+  padding-top: 120px;
+  justify-content: center;
+}
+
+.mobile__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.mobile__menu-cross {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+/* adaptive */
+@media (max-width: 1840px) {
+  .card {
+    max-width: 770px;
+  }
+
+  .benefits__card {
+    width: 460px;
+  }
+
+  .benefits__card-title {
+    font-size: 28px;
+  }
+
+  .benefits__card-text {
+    font-size: 14px;
+  }
+
+  .title {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .header__title {
+    max-width: 925px;
+    font-size: 98px;
+  }
+
+  .header__arrows {
+    margin-right: 15%;
+  }
+}
+
+@media (max-width: 1640px) {
+  .portofolio__cards {
+    row-gap: 15px;
+  }
+
+  .card {
+    max-width: 740px;
+  }
+}
+
+@media (max-width: 1530px) {
+  .card {
+    width: 850px;
+    max-width: max-content;
+  }
+
+  .portofolio__cards {
+    gap: 70px;
+  }
+
+  .title-content {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1415px) {
+  footer {
+    margin-top: 140px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+  }
+
+  .footer__contacts {
+    align-items: center;
+  }
+
+  .contacts__email {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1300px) {
+  .title {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .header__content {
+    gap: 40px;
+    padding-bottom: 85px;
+  }
+
+  .about__info-text {
+    font-size: 16px;
+    max-width: 355px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .about__title {
+    font-size: 48px;
+  }
+
+  .title-content {
+    font-size: 48px;
+  }
+
+  .benefits__cards {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 920px) {
+  .header__nav-list {
+    display: none;
+  }
+
+  .mobile__menu-btn {
+    display: block;
+  }
+
+  .header__btn {
+    padding: 15px 21px;
+  }
+
+  .footer__other {
+    flex-wrap: warp;
+    justify-content: center;
+  }
+
+  .header__title {
+    font-size: 42px;
+  }
+
+  .header__arrows {
+    padding-top: 176px;
+  }
+}
+
+@media (max-width: 850px) {
+  .about__btn {
+    font-size: 12px;
+  }
+
+  .about__info {
+    width: 95%;
+  }
+
+  .header__title {
+    max-width: 603px;
+  }
+}
+
+@media (max-width: 730px) {
+  section {
+    margin-top: 140px;
+  }
+
+  .portfolio__btn {
+    padding: 40px 0;
+  }
+
+  .about__title {
+    font-size: 32px;
+  }
+
+  .title-content {
+    font-size: 32px;
+  }
+
+  .header__arrows {
+    margin-right: 5%;
+  }
+
+  .header__arrows > img {
+    width: 103px;
+  }
+
+  .about__info-text {
+    font-size: 12px;
+    max-width: 260px;
+  }
+
+  .about__info {
+    background-color: var(--color-white);
+    padding: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .portfolio__btn {
+    padding: 25px 0;
+  }
+
+  .about__info-text {
+    max-width: 168px;
+  }
 }
