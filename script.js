@@ -5,11 +5,11 @@ const btnCloseMenu = body.querySelector(".mobile__menu-cross");
 
 btnOpenMenu.addEventListener("click", () => {
   console.log("click");
-  mobileMenu.style.display = "flex";
+  mobileMenu.style.transform = "translateX(0%)";
   body.style.overflow = "hidden";
 });
 
 btnCloseMenu.addEventListener("click", () => {
-  mobileMenu.style.display = "none";
+  mobileMenu.style.transform = "translateX(100%)";
   body.style.overflow = "auto";
 });

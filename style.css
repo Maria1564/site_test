@@ -289,6 +289,7 @@ footer {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 60px;
 }
 
 .benefits__card {
@@ -302,7 +303,6 @@ footer {
     rgba(36, 36, 36, 1) 100%
   );
   border-radius: 20px;
-  margin-top: 60px;
   transition: transform 0.5s;
 }
 
@@ -534,9 +534,11 @@ footer {
   height: 100%;
   background-color: var(--color-black);
   z-index: 40;
-  display: none;
+  display: flex;
+  transform: translateX(100%);
   padding-top: 120px;
   justify-content: center;
+  transition: transform 0.5s;
 }
 
 .mobile__menu-list {
@@ -662,7 +664,7 @@ footer {
   }
 
   .benefits__cards {
-    gap: 0px;
+    gap: 12px;
   }
 }
 
