@@ -753,4 +753,8 @@ footer {
   .about__info-text {
     max-width: 168px;
   }
+
+  .contacts__tel {
+    font-size: 28px;
+  }
 }
