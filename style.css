@@ -54,7 +54,7 @@ input.inp::placeholder {
 }
 
 .header {
-  height: 100vh;
+  height: 100dvh;
   width: 100%;
   background-image: url("./img/bg.png");
   background-repeat: no-repeat;

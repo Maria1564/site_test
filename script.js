@@ -14,15 +14,14 @@ btnCloseMenu.addEventListener("click", () => {
   body.style.overflow = "auto";
 });
 
-const headerContainer = document.querySelector('.header__container');
-const nav = document.querySelector(".header__nav")
+const headerContainer = document.querySelector(".header__container");
+const nav = document.querySelector(".header__nav");
 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 90) {
-      headerContainer.classList.add('header__container_sticky');
-      nav.classList.add('header__nav_sticky');
-    } else {
-      headerContainer.classList.remove('header__container_sticky');
-      nav.classList.remove('header__nav_sticky');
-    }
-  });
+function updateHeaderStickyState() {
+  const isSticky = window.scrollY > 140;
+  headerContainer.classList.toggle("header__container_sticky", isSticky);
+  nav.classList.toggle("header__nav_sticky", isSticky);
+}
+
+window.addEventListener("scroll", updateHeaderStickyState);
+window.addEventListener("load", updateHeaderStickyState);
