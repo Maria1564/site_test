@@ -10,6 +10,8 @@
   --color-gray-6: #66686A;
   --color-gray-7: #D3D3D3;
   --color-gray-8: #2b2a2a;
+  --color-gray-9: #202020;
+  --color-gray-10: #646464;
   --color-light-blue: #F3F6F8;
 }
 
@@ -473,7 +475,7 @@ footer {
 .footer__contacts {
   display: flex;
   flex-direction: column;
-  gap: 62px;
+  gap: 60px;
 }
 
 .contacts__tel {
@@ -489,30 +491,18 @@ footer {
 
 .contacts__social {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
 }
 
-.contacts__btn,
-.contacts__btn_mobile {
-  padding: 24px 77px;
-  background-color: var(--color-white);
-  color: var(--color-black);
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  width: 290px;
-  cursor: pointer;
-  transition: transform 0.5s;
-}
-
-.contacts__btn:hover {
-  transform: scale(0.9);
-}
-
-.contacts__btn_mobile {
-  display: none;
+.contacts__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-gray-9);
+  border-radius: 5px;
 }
 
 .footer__other {
@@ -582,16 +572,24 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: end;
 }
 
-.footer__inn,
+.footer__policy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__map,
 .footer__policy {
   font-weight: 500;
   font-size: 14px;
+  text-decoration: underline;
 }
 
-.footer__policy {
-  text-decoration: underline;
+.footer__map {
+  color: var(--color-gray-10);
 }
 
 .mobile__menu {
@@ -850,6 +848,17 @@ footer {
   .contacts__email {
     text-align: center;
   }
+
+  .footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer__logo-text {
+    margin-top: 0;
+    max-width: 233px;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -944,20 +953,8 @@ footer {
   }
 
   .footer__other {
-    flex-wrap: warp;
+    flex-wrap: wrap;
     justify-content: center;
-  }
-
-  .contacts__btn {
-    display: none;
-  }
-
-  .contacts__btn_mobile {
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    width: 210px;
-    display: block;
   }
 
   .header__title {
@@ -1052,7 +1049,28 @@ footer {
   }
 
   .contacts__tel {
-    font-size: 28px;
+    font-size: 36px;
+  }
+
+  .contacts__email {
+    text-align: left;
+  }
+
+  .footer__content,
+  .footer__other {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 510px) {
+  .footer__bottom {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+    .footer__other {
+    justify-content: start;
   }
 }
 
@@ -1111,6 +1129,8 @@ footer {
     height: 20px;
     min-width: 20px;
   }
+
+
 }
 
 @media (max-height: 620px) {
