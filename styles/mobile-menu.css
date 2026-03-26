@@ -1,0 +1,15 @@
+.mobile__menu-cross {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.mobile__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-transform: uppercase;
+  align-items: center;
+}
