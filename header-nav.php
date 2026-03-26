@@ -24,7 +24,7 @@
     <ul class="header__nav-list">
       <li class="header__nav-item"><a href="#">кейсы</a></li>
       <li class="header__nav-item"><a href="#">услуги</a></li>
-      <li class="header__nav-item"><a href="#">блог</a></li>
+      <li class="header__nav-item"><a href="./blog.php">блог</a></li>
       <li class="header__nav-item"><a href="#">о нас</a></li>
       <li class="header__nav-item header__nav-item_with-star">
         <img src="img/star.svg" alt="star" width="8" height="8" /><a href="#">школа дизайна</a>

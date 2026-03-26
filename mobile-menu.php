@@ -3,7 +3,7 @@
   <ul class="mobile__menu-list">
     <li><a href="#">кейсы</a></li>
     <li><a href="#">услуги</a></li>
-    <li><a href="#">блог</a></li>
+    <li><a href="./blog.php">блог</a></li>
     <li><a href="#">о нас</a></li>
     <li><a href="#">школа дизайна</a></li>
     <li><a href="#">контакты</a></li>

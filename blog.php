@@ -5,21 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Блог</title>
-    <link rel="stylesheet" href="fonts.css?v=20260326" />
-    <link rel="stylesheet" href="styles/style.css?v=20260326" />
-    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260326" />
-    <link rel="stylesheet" href="styles/header-nav.css?v=20260326">
-    <link rel="stylesheet" href="styles/blog.css?v=20260326">
+    <link rel="stylesheet" href="fonts.css?v=20260327" />
+    <link rel="stylesheet" href="styles/shared.css?v=20260327" />
+    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260327" />
+    <link rel="stylesheet" href="styles/header-nav.css?v=20260327">
+    <link rel="stylesheet" href="styles/blog.css?v=20260327">
+    <link rel="stylesheet" href="styles/footer.css?v=20260327">
 </head>
 
 <body>
     <?php include __DIR__ . '/mobile-menu.php'; ?>
     <?php include __DIR__ . '/header-nav.php'; ?>
-
-
-
-    <script src="script.js?v=20260326"></script>
-    <script src="popup.js?v=20260326"></script>
 
     <div class="container">
         <div class="blog__wrapper">
@@ -129,9 +125,14 @@
                     </div>
                 </div>
             </div>
-            <button class="blog__btn">Показать ещё</button>   
+            <button class="blog__btn">Показать ещё</button>
         </div>
+
+        <?php include __DIR__ . '/footer.php'; ?>
     </div>
+
+    <script src="script.js?v=20260327"></script>
+    <script src="popup.js?v=20260327"></script>
 </body>
 
 </html>
