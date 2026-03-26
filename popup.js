@@ -10,7 +10,8 @@ const btnResult = document.querySelector(".result__btn")
 const btnCloseRequest = document.querySelector(".request__close-btn")
 const btnCloseResult = document.querySelector(".result__close-btn")
 
-const openPopup = () => {
+const openPopup = (event) => {
+    event.preventDefault()
     requestPopup.classList.add("request_open")
     document.querySelector("body").style.overflow = "hidden"
 }

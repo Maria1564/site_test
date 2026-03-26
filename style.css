@@ -66,6 +66,7 @@ input.inp::placeholder {
 }
 
 .container {
+  position: relative;
   max-width: 1805px;
   width: 98%;
   margin: 0 auto;
@@ -95,8 +96,7 @@ input.inp::placeholder {
 }
 
 .header__nav_sticky {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 15px 30px;
   background-color: var(--color-white);
   border-radius: 10px;
 }
@@ -134,11 +134,11 @@ input.inp::placeholder {
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
-  transition: transform 0.5s;
+  transition: opacity 0.5s;
 }
 
 .header__btn:hover {
-  transform: scale(0.9);
+  opacity: 0.8;
 }
 
 .header__nav-list {
@@ -180,12 +180,19 @@ input.inp::placeholder {
   transform: rotateY(0deg);
 }
 
+.header__wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .header__arrows {
-  padding-top: 370px;
+  padding-top: 300px;
   padding-bottom: 127px;
   width: max-content;
   margin-left: auto;
   margin-right: 25%;
+  flex-grow: 1;
 }
 
 .header__arrows>img {
@@ -194,12 +201,12 @@ input.inp::placeholder {
 }
 
 .header__content {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: end;
   justify-content: space-between;
   padding-bottom: 155px;
-  position: absolute;
   bottom: 0;
 }
 
@@ -342,12 +349,11 @@ footer {
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.5s;
+  transition: background 0.5s;
 }
 
 .portfolio__btn:hover {
   background-color: var(--color-gray-5);
-  transform: scale(0.9);
 }
 
 .benefits__cards {
@@ -1069,7 +1075,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .footer__other {
+  .footer__other {
     justify-content: start;
   }
 }
