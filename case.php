@@ -138,6 +138,10 @@
         </div>
     </div>
     <div class="container">
+        <a href="index.php" class="case__btn">
+            <span class="case__btn-text">Посмотреть результат по ссылке</span>
+            <span class="case__btn-link">arbko.ru</span>
+        </a>
 
         <form class="form case__form">
             <div class="form__content">
