@@ -1,0 +1,70 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+  max-width: 892px;
+}
+
+.card__img {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 780px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.card__title:hover {
+  color: var(--color-gray-4);
+}
+
+.card__chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.chip {
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid var(--color-gray);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+@media (max-width: 1840px) {
+  .card {
+    max-width: 770px;
+  }
+}
+
+@media (max-width: 1640px) {
+ .card {
+    max-width: 740px;
+  }
+}
+
+@media (max-width: 1530px) {
+  .card {
+    width: 850px;
+    max-width: max-content;
+  }
+}
+
+@media (max-width: 1300px) {
+  .card {
+    gap: 15px;
+  }
+
+  .card__title {
+    margin-bottom: 10px;
+  }
+}

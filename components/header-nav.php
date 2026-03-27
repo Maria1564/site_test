@@ -22,7 +22,7 @@
     <div class="mobile__menu-btn"></div>
 
     <ul class="header__nav-list">
-      <li class="header__nav-item"><a href="#">кейсы</a></li>
+      <li class="header__nav-item"><a href="./cases.php">кейсы</a></li>
       <li class="header__nav-item"><a href="#">услуги</a></li>
       <li class="header__nav-item"><a href="./blog.php">блог</a></li>
       <li class="header__nav-item"><a href="#">о нас</a></li>

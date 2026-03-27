@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Пост</title>
 
-    <link rel="stylesheet" href="styles/fonts.css?v=20260329" />
-    <link rel="stylesheet" href="styles/shared.css?v=20260329" />
-    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260329" />
-    <link rel="stylesheet" href="styles/header-nav.css?v=20260329">
-    <link rel="stylesheet" href="styles/footer.css?v=20260329">
-    <link rel="stylesheet" href="styles/post.css?v=20260329">
-    <link rel="stylesheet" href="styles/popups.css?v=20260329">
-    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260329">
-    <link rel="stylesheet" href="styles/blog-card.css?v=20260329">
+    <link rel="stylesheet" href="styles/fonts.css?v=20260331" />
+    <link rel="stylesheet" href="styles/shared.css?v=20260331" />
+    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260331" />
+    <link rel="stylesheet" href="styles/header-nav.css?v=20260331">
+    <link rel="stylesheet" href="styles/footer.css?v=20260331">
+    <link rel="stylesheet" href="styles/post.css?v=20260331">
+    <link rel="stylesheet" href="styles/popups.css?v=20260331">
+    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260331">
+    <link rel="stylesheet" href="styles/blog-card.css?v=20260331">
 
 </head>
 
@@ -121,14 +121,14 @@
             </ol>
         </div>
 
-          
+
     </div>
 
     <div class="container">
         <section class="related-posts">
-        <h2 class="related-posts__title">Похожие статьи</h2>
-        <div class="related-posts__list">
-                 <?php include 'components/blog-card.php'; ?>
+            <h2 class="related-posts__title">Похожие статьи</h2>
+            <div class="related-posts__list">
+                <?php include __DIR__ . '/components/blog-card.php'; ?>
 
                 <?php renderBlogCard(
                     'img/blog/project1.png',
@@ -146,14 +146,14 @@
                             получите результат, который позволит вам выглядеть выгоднее и современнее....',
                     '01.07.2025'
                 ); ?>
-        </div>
-       </section>  
+            </div>
+        </section>
 
         <?php include __DIR__ . '/components/footer.php'; ?>
     </div>
 
-    <script src="script.js?v=20260329"></script>
-    <script src="popup.js?v=20260329"></script>
+    <script src="script.js?v=20260330"></script>
+    <script src="popup.js?v=20260330"></script>
 </body>
 
 </html>

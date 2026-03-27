@@ -5,14 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Red button</title>
-  <link rel="stylesheet" href="styles/fonts.css?v=20260329" />
+  <link rel="stylesheet" href="styles/fonts.css?v=20260331" />
 
-  <link rel="stylesheet" href="styles/style.css?v=20260329" />
-  <link rel="stylesheet" href="styles/shared.css?v=20260329" />
-  <link rel="stylesheet" href="styles/mobile-menu.css?v=20260329" />
-  <link rel="stylesheet" href="styles/header-nav.css?v=20260329">
-  <link rel="stylesheet" href="styles/footer.css?v=20260329">
-  <link rel="stylesheet" href="styles/popups.css?v=20260329">
+  <link rel="stylesheet" href="styles/style.css?v=20260331" />
+  <link rel="stylesheet" href="styles/shared.css?v=20260331" />
+  <link rel="stylesheet" href="styles/mobile-menu.css?v=20260331" />
+  <link rel="stylesheet" href="styles/header-nav.css?v=20260331">
+  <link rel="stylesheet" href="styles/footer.css?v=20260331">
+  <link rel="stylesheet" href="styles/popups.css?v=20260331">
 
 </head>
 
@@ -49,75 +49,74 @@
       </div>
 
       <div class="portofolio__cards">
-        <div class="card">
-          <img src="img/project1.png" alt="project1" class="card__img" />
-          <div class="card__content">
-            <p class="card__title">Разработка сайта детского лагеря Рекрут</p>
-            <div class="card__chips">
-              <div class="chip">WordPress</div>
-              <div class="chip">Лендинг</div>
-              <div class="chip no-oldstyle-numbers">2025</div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/proj2.png" alt="project1" class="card__img" />
-          <div class="card__content">
-            <p class="card__title">
-              Дизайн сайта для производителя серверного оборудования в Москве
-              и Московской области
-            </p>
-            <div class="card__chips">
-              <div class="chip">WordPress</div>
-              <div class="chip">Лендинг</div>
-              <div class="chip no-oldstyle-numbers">2025</div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/proj3.png" alt="project1" class="card__img" />
-          <div class="card__content">
-            <p class="card__title">Разработка сайта детского лагеря Рекрут</p>
-            <div class="card__chips">
-              <div class="chip">WordPress</div>
-              <div class="chip">Лендинг</div>
-              <div class="chip no-oldstyle-numbers">2025</div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/proj4.png" alt="project1" class="card__img" />
-          <div class="card__content">
-            <p class="card__title">Разработка сайта детского лагеря Рекрут</p>
-            <div class="card__chips">
-              <div class="chip">WordPress</div>
-              <div class="chip">Лендинг</div>
-              <div class="chip no-oldstyle-numbers">2025</div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/proj5.png" alt="project1" class="card__img" />
-          <div class="card__content">
-            <p class="card__title">Разработка сайта детского лагеря Рекрут</p>
-            <div class="card__chips">
-              <div class="chip">WordPress</div>
-              <div class="chip">Лендинг</div>
-              <div class="chip no-oldstyle-numbers">2025</div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/proj6.png" alt="project1" class="card__img" />
-          <div class="card__content">
-            <p class="card__title">Разработка сайта детского лагеря Рекрут</p>
-            <div class="card__chips">
-              <div class="chip">WordPress</div>
-              <div class="chip">Лендинг</div>
-              <div class="chip no-oldstyle-numbers">2025</div>
-            </div>
-          </div>
-        </div>
+        <?php include __DIR__ . '/components/case-card.php'; ?>
+
+        <?php
+        renderCard(
+          'img/project1.png',
+          'Разработка сайта детского лагеря Рекрут',
+          [
+            ['text' => 'WordPress'],
+            ['text' => 'Лендинг'],
+            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
+          ]
+        );
+        ?>
+        <?php
+        renderCard(
+          'img/proj2.png',
+          'Дизайн сайта для производителя серверного оборудования в Москве и Московской области',
+          [
+            ['text' => 'WordPress'],
+            ['text' => 'Лендинг'],
+            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
+          ]
+        );
+        ?>
+        <?php
+        renderCard(
+          'img/proj3.png',
+          'Разработка сайта детского лагеря Рекрут',
+          [
+            ['text' => 'WordPress'],
+            ['text' => 'Лендинг'],
+            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
+          ]
+        );
+        ?>
+        <?php
+        renderCard(
+          'img/proj4.png',
+          'Разработка сайта детского лагеря Рекрут',
+          [
+            ['text' => 'WordPress'],
+            ['text' => 'Лендинг'],
+            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
+          ]
+        );
+        ?>
+        <?php
+        renderCard(
+          'img/proj5.png',
+          'Разработка сайта детского лагеря Рекрут',
+          [
+            ['text' => 'WordPress'],
+            ['text' => 'Лендинг'],
+            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
+          ]
+        );
+        ?>
+        <?php
+        renderCard(
+          'img/proj6.png',
+          'Разработка сайта детского лагеря Рекрут',
+          [
+            ['text' => 'WordPress'],
+            ['text' => 'Лендинг'],
+            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
+          ]
+        );
+        ?>
       </div>
 
       <button class="portfolio__btn">смотреть больше работ</button>
