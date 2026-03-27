@@ -142,9 +142,45 @@ h4 {
     list-style: lower-latin;
 }
 
+.related-posts {
+    margin-top: 200px;
+}
+
+.related-posts__title {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.related-posts__list {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 20px;
+}
+
+@media (max-width: 1715px) {
+    .related-posts__list {
+        grid-template-columns: repeat(1, 1fr);
+        justify-self: center;
+    }
+}
+
 @media (max-width: 730px) {
     .post__img {
         height: 388px;
+    }
+
+    .related-posts {
+        margin-top: 100px;
+    }
+
+    .related-posts__list {
+        margin-top: 30px;
+    }
+
+    .related-posts__title {
+        font-size: 36px;
     }
 }
 
