@@ -43,3 +43,13 @@
     }
 }
 
+@media (max-width: 730px) {
+    .cases__list {
+        margin-top: 40px;
+    }
+
+    .cases__wrapper {
+        padding-top: 100px;
+    }
+}
+

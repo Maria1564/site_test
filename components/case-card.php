@@ -4,7 +4,7 @@ function renderCard($img, $title, $chips = []) {
     <div class="card">
         <img src="<?= $img ?>" alt="project" class="card__img" />
         <div class="card__content">
-            <p class="card__title"><?= $title ?></p>
+            <a href="case.php" class="card__title"><?= $title ?></a>
 
             <?php if (!empty($chips)): ?>
                 <div class="card__chips">

@@ -19,6 +19,7 @@
   margin-bottom: 20px;
   cursor: pointer;
   transition: color 0.5s;
+  display: block;
 }
 
 .card__title:hover {
@@ -54,8 +55,8 @@
 
 @media (max-width: 1530px) {
   .card {
-    width: 850px;
-    max-width: max-content;
+    width: 100%
+
   }
 }
 

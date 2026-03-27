@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -24,10 +24,13 @@
 
     <div class="container">
         <div class="cases__wrapper">
-            <div class="breadcrumbs">
-                <span class="breadcrumbs__item">Главная</span>
-            </div>
-            <h1 class="title">Наши работы</h1>
+            <?php include __DIR__ . '/components/breadcrumbs.php'; ?>
+            <?php
+            renderBreadcrumbs(
+                ['Главная'],
+                'Наши работы'
+            );
+            ?>
             <div class="cases__list">
                 <?php include __DIR__ . '/components/case-card.php'; ?>
 

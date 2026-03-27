@@ -1,5 +1,6 @@
 .blog__wrapper {
     padding-top: 168px;
+    margin-bottom: 200px;
 }
 
 .blog__list {
@@ -47,6 +48,11 @@
 @media (max-width: 730px) {
     .blog__btn {
         padding: 40px 0;
+    }
+
+    .blog__wrapper {
+        padding-top: 100px;
+        margin-bottom: 100px;
     }
 }
 

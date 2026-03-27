@@ -1,18 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Red button</title>
-  <link rel="stylesheet" href="styles/fonts.css?v=20260331" />
+  <link rel="stylesheet" href="styles/fonts.css?v=20260333" />
 
-  <link rel="stylesheet" href="styles/style.css?v=20260331" />
-  <link rel="stylesheet" href="styles/shared.css?v=20260331" />
-  <link rel="stylesheet" href="styles/mobile-menu.css?v=20260331" />
-  <link rel="stylesheet" href="styles/header-nav.css?v=20260331">
-  <link rel="stylesheet" href="styles/footer.css?v=20260331">
-  <link rel="stylesheet" href="styles/popups.css?v=20260331">
+  <link rel="stylesheet" href="styles/style.css?v=20260334" />
+  <link rel="stylesheet" href="styles/shared.css?v=20260334" />
+  <link rel="stylesheet" href="styles/mobile-menu.css?v=20260334" />
+  <link rel="stylesheet" href="styles/header-nav.css?v=20260334">
+  <link rel="stylesheet" href="styles/footer.css?v=20260334">
+  <link rel="stylesheet" href="styles/popups.css?v=20260334">
+  <link rel="stylesheet" href="styles/case-card.css?v=20260334">
 
 </head>
 

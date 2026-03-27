@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Блог</title>
-    <link rel="stylesheet" href="styles/fonts.css?v=20260331" />
-    <link rel="stylesheet" href="styles/shared.css?v=20260331" />
-    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260331" />
-    <link rel="stylesheet" href="styles/header-nav.css?v=20260331">
-    <link rel="stylesheet" href="styles/footer.css?v=20260331">
-    <link rel="stylesheet" href="styles/blog.css?v=20260331">
-    <link rel="stylesheet" href="styles/popups.css?v=20260331">
-    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260331">
-    <link rel="stylesheet" href="styles/blog-card.css?v=20260331">
+    <link rel="stylesheet" href="styles/fonts.css?v=20260334" />
+    <link rel="stylesheet" href="styles/shared.css?v=20260334" />
+    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260334" />
+    <link rel="stylesheet" href="styles/header-nav.css?v=20260334">
+    <link rel="stylesheet" href="styles/footer.css?v=20260334">
+    <link rel="stylesheet" href="styles/blog.css?v=20260334">
+    <link rel="stylesheet" href="styles/popups.css?v=20260334">
+    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260334">
+    <link rel="stylesheet" href="styles/blog-card.css?v=20260334">
 </head>
 
 <body>
@@ -23,10 +23,13 @@
 
     <div class="container">
         <div class="blog__wrapper">
-            <div class="breadcrumbs">
-                <span class="breadcrumbs__item">Главная</span>
-            </div>
-            <h1 class="title">Новости и статьи</h1>
+            <?php include __DIR__ . '/components/breadcrumbs.php'; ?>
+            <?php
+            renderBreadcrumbs(
+                ['Главная'],
+                'Новости и статьи'
+            );
+            ?>
             <div class="blog__list">
 
                 <?php include 'components/blog-card.php'; ?>

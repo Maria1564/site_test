@@ -1,6 +1,6 @@
 <div class="header__container container">
   <nav class="header__nav">
-    <div class="header__logo">
+    <a class="header__logo" href="index.php">
       <svg width="67" height="26" viewBox="0 0 67 26" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M59.8003 6.69531C61.7443 6.69531 63.3283 7.36731 64.5523 8.71131C65.8003 10.0313 66.4243 11.9393 66.4243 14.4353V25.1993H60.4483V15.1913C60.4483 14.2553 60.1963 13.5473 59.6923 13.0673C59.2123 12.5873 58.5643 12.3473 57.7483 12.3473C56.8123 12.3473 56.0803 12.6353 55.5523 13.2113C55.0483 13.7633 54.7963 14.5673 54.7963 15.6233V25.1993H48.8203V7.19931H54.7963V8.99931C55.8763 7.46331 57.5443 6.69531 59.8003 6.69531Z"
@@ -16,7 +16,7 @@
           fill="currentColor" />
       </svg>
 
-    </div>
+    </a>
     <a href="#" class="header__btn">Связаться с нами</a>
     <a href="#" class="header__btn_mobile">Связаться</a>
     <div class="mobile__menu-btn"></div>
