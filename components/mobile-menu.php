@@ -6,6 +6,6 @@
     <li><a href="./blog.php">блог</a></li>
     <li><a href="#">о нас</a></li>
     <li><a href="#">школа дизайна</a></li>
-    <li><a href="#">контакты</a></li>
+    <li><a href="./contacts.php">контакты</a></li>
   </ul>
 </div>

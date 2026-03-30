@@ -7,15 +7,17 @@
     <title>Кейс</title>
 
     <link rel="stylesheet" href="styles/fonts.css?v=20260335" />
-    <link rel="stylesheet" href="styles/shared.css?v=20260335" />
+    <link rel="stylesheet" href="styles/shared.css?v=20260336" />
     <link rel="stylesheet" href="styles/mobile-menu.css?v=20260335" />
     <link rel="stylesheet" href="styles/header-nav.css?v=20260335">
     <link rel="stylesheet" href="styles/footer.css?v=20260335">
     <link rel="stylesheet" href="styles/popups.css?v=20260335">
     <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260335">
-    <link rel="stylesheet" href="styles/case.css?v=20260335">
+    <link rel="stylesheet" href="styles/case.css?v=20260336">
     <link rel="stylesheet" href="styles/case-card.css?v=20260335">
     <link rel="stylesheet" href="styles/typography.css?v=20260335">
+    <link rel="stylesheet" href="styles/form.css?v=20260335">
+
 </head>
 
 <body>
@@ -143,36 +145,11 @@
             <span class="case__btn-link">arbko.ru</span>
         </a>
 
-        <form class="form case__form">
-            <div class="form__content">
-                <div>
+        <?php
+        include __DIR__ . '/components/form.php';
 
-                    <h2 class="form__title">Понравилась работа?
-                        Сделаем вам
-                        еще лучше!</h2>
-                    <p class="form__description">Просто оставьте заявку в форме или пишите сразу в мессенджеры.
-                        Расскажем
-                        что сколько стоит и какие есть варианты реализации</p>
-                </div>
-                <div class="form__socials">
-                    <a href="#" class="form__link"><img src="img/case/max.svg" alt="max"></a>
-                    <a href="#" class="form__link"><img src="img/case/telegram.svg" alt="telegram"></a>
-                </div>
-            </div>
-            <div class="form__main">
-                <div class="form__fields">
-                    <input type="text" name="username" id="" class="form__inp" placeholder="Ваше имя">
-                    <input type="text" name="tel" id="" class="form__inp" placeholder="Ваш телефон">
-                    <textarea class="form__inp form__textarea" placeholder="Что требуется?"></textarea>
-                </div>
-                <div class="form__btn" type="button">Отправить</div>
-                <div class="form__policy">
-                    <input type="checkbox" name="" id="policy">
-                    <label for="policy">Нажимая на кнопку Отправить вы соглашаетесь с условиями <a href="#">Политики
-                            конфиденциальности</a></label>
-                </div>
-            </div>
-        </form>
+        renderForm('case__form');
+        ?>
 
         <section class="related">
             <h2 class="related__title">Похожие кейсы</h2>

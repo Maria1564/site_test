@@ -87,10 +87,10 @@
       </div>
 
       <ul class="footer__nav">
-        <li><a href="#" class="footer__title">блог</a></li>
+        <li><a href="./blog.php" class="footer__title">блог</a></li>
         <li><a href="#" class="footer__title">О нас</a></li>
         <li><a href="#" class="footer__title">Школа дизайна</a></li>
-        <li><a href="#" class="footer__title">Контакты</a></li>
+        <li><a href="./contacts.php" class="footer__title">Контакты</a></li>
       </ul>
     </div>
   </div>

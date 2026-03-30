@@ -29,7 +29,7 @@
       <li class="header__nav-item header__nav-item_with-star">
         <img src="img/star.svg" alt="star" width="8" height="8" /><a href="#">школа дизайна</a>
       </li>
-      <li class="header__nav-item"><a href="#">контакты</a></li>
+      <li class="header__nav-item"><a href="./contacts.php">контакты</a></li>
     </ul>
   </nav>
 </div>
