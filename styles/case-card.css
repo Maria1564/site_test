@@ -53,10 +53,16 @@
   }
 }
 
-@media (max-width: 1530px) {
+/* @media (max-width: 1530px) {
   .card {
     width: 100%
 
+  }
+} */
+
+@media (max-width: 1530px) {
+  .card {
+    max-width: 580px;
   }
 }
 
@@ -67,5 +73,21 @@
 
   .card__title {
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1270px) {
+  .card {
+    max-width: 420px;
+  }
+
+  .card__title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 955px) {
+  .card {
+    max-width: 100%;
   }
 }

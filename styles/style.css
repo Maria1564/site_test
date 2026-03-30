@@ -277,16 +277,16 @@ section{
   section {
     margin-top: 46px;
   }
+
+  .portofolio__cards {
+    gap: 35px;
+  }
 }
 
 @media (max-width: 1260px) {
   .about__info-text {
     font-size: 16px;
     max-width: 355px;
-  }
-
-  .container {
-    width: 92%;
   }
 }
 

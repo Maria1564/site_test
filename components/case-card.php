@@ -1,10 +1,11 @@
 <?php
-function renderCard($img, $title, $chips = []) {
-?>
+function renderCard($img, $title, $chips = [])
+{
+    ?>
     <div class="card">
         <img src="<?= $img ?>" alt="project" class="card__img" />
         <div class="card__content">
-            <a href="case.php" class="card__title"><?= $title ?></a>
+            <h2 class="card__title"><a href="case.php"><?= $title ?></a></h2>
 
             <?php if (!empty($chips)): ?>
                 <div class="card__chips">
@@ -18,6 +19,6 @@ function renderCard($img, $title, $chips = []) {
 
         </div>
     </div>
-<?php
+    <?php
 }
 ?>

@@ -46,6 +46,10 @@
 }
 
 @media (max-width: 730px) {
+    .blog__list {
+        margin-top: 50px;
+    }
+
     .blog__btn {
         padding: 40px 0;
     }

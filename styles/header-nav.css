@@ -144,7 +144,11 @@
 /* mediaQuery */
 
 @media (max-width: 920px) {
-    .header__nav {
+    /* .header__nav {
+        padding: 10px 0 ;
+    } */
+
+    .header__nav_sticky {
         padding: 10px;
     }
 
