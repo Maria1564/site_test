@@ -43,26 +43,8 @@
 
 @media (max-width: 1840px) {
   .card {
-    max-width: 770px;
-  }
-}
-
-@media (max-width: 1640px) {
- .card {
-    max-width: 740px;
-  }
-}
-
-/* @media (max-width: 1530px) {
-  .card {
-    width: 100%
-
-  }
-} */
-
-@media (max-width: 1530px) {
-  .card {
-    max-width: 580px;
+    flex: 1 1 calc(50% - 40px);
+    max-width: none;
   }
 }
 
@@ -77,10 +59,6 @@
 }
 
 @media (max-width: 1270px) {
-  .card {
-    max-width: 420px;
-  }
-
   .card__title {
     font-size: 20px;
   }
@@ -88,6 +66,6 @@
 
 @media (max-width: 955px) {
   .card {
-    max-width: 100%;
+    flex: 1 1 calc(100%);
   }
 }

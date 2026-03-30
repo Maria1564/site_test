@@ -91,7 +91,7 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 20px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
@@ -99,7 +99,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 702px;
+}
+
+.form__content,
+.form__main {
+    flex: 1;
 }
 
 .form__title {
@@ -118,12 +122,13 @@
 .form__socials {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 .form__link {
     padding: 36px 0;
-    width: 342px;
+    flex: 1;
     background-color: var(--color-gray-12);
     display: flex;
     justify-content: center;
@@ -132,9 +137,6 @@
     cursor: pointer;
 }
 
-.form__main {
-    max-width: 100%;
-}
 
 .form__fields {
     display: flex;
@@ -153,7 +155,7 @@
 }
 
 .form__textarea {
-    width: 764px;
+    width: 100%;
     height: 264px;
     padding-top: 20px;
 }
@@ -225,6 +227,59 @@
     gap: 40px;
 }
 
+@media (max-width: 1480px) {
+    .form__title {
+        font-size: 48px;
+    }
+
+    .form__socials {
+        flex-direction: column;
+        align-items: normal;
+    }
+}
+
+@media (max-width: 1310px) {
+    .form__title {
+        margin-bottom: 35px;
+        font-size: 40px;
+    }
+
+    .form__description {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .form {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .form__description {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .form__title {
+        font-size: 36px;
+    }
+
+    .form__description {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .form__title {
+        font-size: 28px;
+    }
+
+    .form__description {
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 730px) {
 
     .case__wrapper,
@@ -243,59 +298,5 @@
 
     .case__wrapper {
         padding-top: 100px;
-    }
-}
-
-@media (max-width: 1600px) {
-    .form {
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-        text-align: center;
-    }
-
-    .form__socials {
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 870px) {
-    .form__title {
-        font-size: 36px;
-    }
-
-    .form__content {
-        max-width: 100%;
-    }
-
-    .form__textarea {
-        max-width: 100%;
-    }
-}
-
-
-@media (max-width: 650px) {
-    .form {
-        padding: 20px 10px;
-    }
-
-    .form__description {
-        font-size: 12px;
-    }
-
-    .form__link {
-        padding: 20px 0;
-    }
-
-    .form__policy {
-        justify-content: center;
-    }
-
-    .form__policy>label {
-        max-width: 340px;
-    }
-
-    .form__btn {
-        padding: 20px 0;
     }
 }

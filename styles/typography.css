@@ -81,7 +81,8 @@ h4 {
 }
 
 @media (max-width: 1024px) {
-    .paragraph {
+    .paragraph,
+    .list  li  {
         font-size: 16px;
     }
 
@@ -95,7 +96,8 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    .paragraph {
+    .paragraph,
+    .list  li {
         font-size: 14px;
     }
 

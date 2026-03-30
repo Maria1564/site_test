@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Пост</title>
 
-    <link rel="stylesheet" href="styles/fonts.css?v=20260334" />
-    <link rel="stylesheet" href="styles/shared.css?v=20260334" />
-    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260334" />
-    <link rel="stylesheet" href="styles/header-nav.css?v=20260334">
-    <link rel="stylesheet" href="styles/footer.css?v=20260334">
-    <link rel="stylesheet" href="styles/post.css?v=20260334">
-    <link rel="stylesheet" href="styles/popups.css?v=20260334">
-    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260334">
-    <link rel="stylesheet" href="styles/blog-card.css?v=20260334">
-    <link rel="stylesheet" href="styles/typography.css?v=20260334">
+    <link rel="stylesheet" href="styles/fonts.css?v=20260335" />
+    <link rel="stylesheet" href="styles/shared.css?v=20260335" />
+    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260335" />
+    <link rel="stylesheet" href="styles/header-nav.css?v=20260335">
+    <link rel="stylesheet" href="styles/footer.css?v=20260335">
+    <link rel="stylesheet" href="styles/post.css?v=20260335">
+    <link rel="stylesheet" href="styles/popups.css?v=20260335">
+    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260335">
+    <link rel="stylesheet" href="styles/blog-card.css?v=20260335">
+    <link rel="stylesheet" href="styles/typography.css?v=20260335">
 
 </head>
 
