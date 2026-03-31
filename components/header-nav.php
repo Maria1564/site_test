@@ -23,7 +23,7 @@
 
     <ul class="header__nav-list">
       <li class="header__nav-item"><a href="./cases.php">кейсы</a></li>
-      <li class="header__nav-item"><a href="#">услуги</a></li>
+      <li class="header__nav-item"><a href="./services.php">услуги</a></li>
       <li class="header__nav-item"><a href="./blog.php">блог</a></li>
       <li class="header__nav-item"><a href="#">о нас</a></li>
       <li class="header__nav-item header__nav-item_with-star">

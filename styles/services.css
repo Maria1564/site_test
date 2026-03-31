@@ -99,6 +99,12 @@
     }
 }
 
+@media (max-width: 730px) {
+    .services__list {
+        margin-top: 40px;
+    }
+}
+
 @media (max-width: 665px) {
     .services__item {
         padding: 20px 10px;
