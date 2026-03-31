@@ -7,7 +7,7 @@
     <title>Пост</title>
 
     <link rel="stylesheet" href="styles/fonts.css?v=20260335" />
-    <link rel="stylesheet" href="styles/shared.css?v=20260336" />
+    <link rel="stylesheet" href="styles/shared.css?v=20260337" />
     <link rel="stylesheet" href="styles/mobile-menu.css?v=20260335" />
     <link rel="stylesheet" href="styles/header-nav.css?v=20260335">
     <link rel="stylesheet" href="styles/footer.css?v=20260335">
