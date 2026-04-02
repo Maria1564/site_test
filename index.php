@@ -7,13 +7,15 @@
   <title>Red button</title>
   <link rel="stylesheet" href="styles/fonts.css?v=20260333" />
 
-  <link rel="stylesheet" href="styles/style.css?v=20260335" />
+  <link rel="stylesheet" href="styles/style.css?v=20260336" />
   <link rel="stylesheet" href="styles/shared.css?v=20260337" />
   <link rel="stylesheet" href="styles/mobile-menu.css?v=20260335" />
   <link rel="stylesheet" href="styles/header-nav.css?v=20260335">
   <link rel="stylesheet" href="styles/footer.css?v=20260335">
   <link rel="stylesheet" href="styles/popups.css?v=20260335">
   <link rel="stylesheet" href="styles/case-card.css?v=20260335">
+  <link rel="stylesheet" href="styles/section-title.css?v=20260402">
+  <link rel="stylesheet" href="styles/sections.css?v=20260402">
 
 </head>
 
@@ -41,95 +43,15 @@
     </div>
   </header>
   <div class="container">
-    <section class="portfolio">
-      <div class="title">
-        <div class="badge">Наши работы</div>
-        <h2 class="title-content">
-          За 12 лет работы, сделали десятки классных проектов
-        </h2>
-      </div>
-
-      <div class="portofolio__cards">
-        <?php include __DIR__ . '/components/case-card.php'; ?>
-
-        <?php
-        renderCard(
-          'img/project1.png',
-          'Разработка сайта детского лагеря Рекрут',
-          [
-            ['text' => 'WordPress'],
-            ['text' => 'Лендинг'],
-            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
-          ]
-        );
-        ?>
-        <?php
-        renderCard(
-          'img/proj2.png',
-          'Дизайн сайта для производителя серверного оборудования в Москве и Московской области',
-          [
-            ['text' => 'WordPress'],
-            ['text' => 'Лендинг'],
-            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
-          ]
-        );
-        ?>
-        <?php
-        renderCard(
-          'img/proj3.png',
-          'Разработка сайта детского лагеря Рекрут',
-          [
-            ['text' => 'WordPress'],
-            ['text' => 'Лендинг'],
-            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
-          ]
-        );
-        ?>
-        <?php
-        renderCard(
-          'img/proj4.png',
-          'Разработка сайта детского лагеря Рекрут',
-          [
-            ['text' => 'WordPress'],
-            ['text' => 'Лендинг'],
-            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
-          ]
-        );
-        ?>
-        <?php
-        renderCard(
-          'img/proj5.png',
-          'Разработка сайта детского лагеря Рекрут',
-          [
-            ['text' => 'WordPress'],
-            ['text' => 'Лендинг'],
-            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
-          ]
-        );
-        ?>
-        <?php
-        renderCard(
-          'img/proj6.png',
-          'Разработка сайта детского лагеря Рекрут',
-          [
-            ['text' => 'WordPress'],
-            ['text' => 'Лендинг'],
-            ['text' => '2029', 'class' => 'no-oldstyle-numbers']
-          ]
-        );
-        ?>
-      </div>
-
-      <button class="portfolio__btn">смотреть больше работ</button>
-    </section>
+    <?php include __DIR__ . '/components/section-portfolio.php'; ?>
 
     <section class="benefits">
-      <div class="title">
-        <div class="badge">Наши работы</div>
-        <h2 class="title-content">
-          Мы — веб-студия нового поколения: делаем быстро и красиво
-        </h2>
-      </div>
+      <?php
+      renderSectionTitle(
+        'Наши работы',
+        'Мы — веб-студия нового поколения: делаем быстро и красиво'
+      );
+      ?>
       <div class="benefits__cards">
         <div class="benefits__card">
           <img src="img/laptop.png" alt="laptop" class="benefits__card-img" />

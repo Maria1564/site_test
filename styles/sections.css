@@ -1,0 +1,123 @@
+/* блок портфолио */
+
+.portfolio__cards {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  gap: 40px 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio__btn {
+  margin-top: 60px;
+  width: 100%;
+  padding: 50px 0;
+  background: transparent;
+  text-transform: uppercase;
+  border: 1px solid var(--color-gray);
+  border-radius: 20px;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.portfolio__btn:hover {
+  background-color: var(--color-gray-5);
+}
+
+@media (max-width: 1530px) {
+  .portfolio__cards {
+    gap: 70px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .portfolio__cards {
+    margin-top: 35px;
+    gap: 35px;
+  }
+}
+
+@media (max-width: 550px) {
+  .portfolio__btn {
+    padding: 25px 0;
+  }
+}
+
+
+/* cta */
+
+.cta-banner {
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to top,
+      rgba(36, 36, 36, 1) 0%,
+      rgba(118, 23, 30, 1) 25%,
+      rgba(194, 11, 25, 1) 50%,
+      rgba(118, 23, 30, 1) 75%,
+      rgba(36, 36, 36, 1) 100%);
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.cta-banner__left {
+  margin: 41px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.cta-banner__info {
+  max-width: 660px;
+}
+
+.cta-banner__title {
+  font-size: 80px;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 40px;
+}
+
+.cta-banner__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--color-white);
+  max-width: 518px;
+}
+
+.cta-banner__img {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.cta-banner__img>img {
+  width: 100%
+}
+
+@media (max-width: 1240px) {
+  .cta-banner {
+    flex-direction: column;
+  }
+
+  .cta-banner__img {
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .cta-banner__img>img {
+    width: 60%
+  }
+}
+
+@media (max-width: 790px) {
+  
+}

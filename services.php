@@ -16,6 +16,65 @@
 </head>
 
 <body>
+    <?php
+    $services = [
+        [
+            'id' => 'sites',
+            'title' => 'Разработка сайтов',
+            'tags' => [
+                'Лендинги',
+                'Корпоративные сайты',
+                'Интернет-каталоги',
+                'Промо-сайты',
+                'Интернет-магазины',
+                'Сайты на Tilda',
+                'Сайты на WordPress',
+                'Сайты на 1С-Битрикс',
+            ],
+        ],
+        [
+            'id' => 'support',
+            'title' => 'Поддержка сайтов',
+            'tags' => [
+                'Техническая поддержка сайтов',
+                'Выполнение работ на сайтах',
+                'Ремонт и восстановление сайта',
+                'Поддержка 1С-Битрикс',
+                'Лечение от вирусов',
+                'Поддержка WordPress',
+                'Поддержка Tilda',
+                'Приведение к требованиям 152-ФЗ',
+            ],
+        ],
+        [
+            'id' => 'crm',
+            'title' => 'CRM Системы',
+            'tags' => [
+                'Внедрение и поддержка AmoCrm',
+                'Внедрение и поддержка Битрикс 24',
+                'Телефония и интеграция',
+            ],
+        ],
+        [
+            'id' => 'marketing',
+            'title' => 'Реклама и продвижение',
+            'tags' => [
+                'Медийная реклама',
+                'Яндекс Директ',
+                'SEO-продвижение',
+            ],
+        ],
+        [
+            'id' => 'automation',
+            'title' => 'Автоматизация',
+            'tags' => [
+                'Бизнес-процессы',
+                'Интеграции сервисов',
+                'Автоматизация продаж',
+            ],
+        ],
+    ];
+    ?>
     <?php include __DIR__ . '/components/popups.php'; ?>
     <?php include __DIR__ . '/components/mobile-menu.php'; ?>
     <?php include __DIR__ . '/components/header-nav.php'; ?>
@@ -31,120 +90,28 @@
             ?>
 
             <div class="services__list">
-                <div class="services__item" onclick="window.location.href='cases.php'">
-                    <div class="services__left">
-                        <div class="services__info">
-                            <h2 class="services__title">Разработка сайтов</h2>
-                            <p class="services__description">Разрабатываем современные сайты разного масштаба под ключ.
-                            </p>
+                <?php foreach ($services as $service): ?>
+                    <div class="services__item" onclick="window.location.href='direction.php?id=<?= urlencode($service['id']) ?>'">
+                        <div class="services__left">
+                            <div class="services__info">
+                                <h2 class="services__title"><?= htmlspecialchars($service['title'], ENT_QUOTES, 'UTF-8') ?></h2>
+                                <p class="services__description">Разрабатываем современные сайты разного масштаба под ключ.
+                                </p>
+                            </div>
+                            <div class="services__tags">
+                                <?php foreach ($service['tags'] as $tag): ?>
+                                    <a href="post.php" class="tag"><?= htmlspecialchars($tag, ENT_QUOTES, 'UTF-8') ?></a>
+                                <?php endforeach; ?>
+                            </div>
                         </div>
-                        <div class="services__tags">
-                            <a href="post.php" class="tag">Лендинги</a>
-                            <a href="post.php" class="tag">Корпоративные сайты</a>
-                            <a href="post.php" class="tag">Интернет-каталоги</a>
-                            <a href="post.php" class="tag">Промо-сайты</a>
-                            <a href="post.php" class="tag">Интернет-магазины</a>
-                            <a href="post.php" class="tag">Сайты на Tilda</a>
-                            <a href="post.php" class="tag">Сайты на WordPress</a>
-                            <a href="post.php" class="tag">Сайты на 1С-Битрикс</a>
-                        </div>
-                    </div>
 
-                    <div class="services__right">
-                        <span>Подробнее</span>
-                        <div class="services__icon"><img src="img/arrow-right.svg" alt="arrow"></div>
+                        <div class="services__right">
+                            <span>Подробнее</span>
+                            <div class="services__icon"><img src="img/arrow-right.svg" alt="arrow"></div>
 
-                    </div>
-                </div>
-                
-                <div class="services__item" onclick="window.location.href='cases.php'">
-                    <div class="services__left">
-                        <div class="services__info">
-                            <h2 class="services__title">Поддержка сайтов</h2>
-                            <p class="services__description">Разрабатываем современные сайты разного масштаба под ключ.
-                            </p>
-                        </div>
-                        <div class="services__tags">
-                            <a href="post.php" class="tag">Техническая поддержка сайтов</a>
-                            <a href="post.php" class="tag">Выполнение работ на сайтах</a>
-                            <a href="post.php" class="tag">Ремонт и восстановление сайта</a>
-                            <a href="post.php" class="tag">Поддержка 1С-Битрикс</a>
-                            <a href="post.php" class="tag">Лечение от вирусов</a>
-                            <a href="post.php" class="tag">Поддержка WordPress</a>
-                            <a href="post.php" class="tag">Поддержка Tilda</a>
-                            <a href="post.php" class="tag">Приведение к требованиям 152-ФЗ</a>
                         </div>
                     </div>
-
-                    <div class="services__right">
-                        <span>Подробнее</span>
-                        <div class="services__icon"><img src="img/arrow-right.svg" alt="arrow"></div>
-
-                    </div>
-                </div>
-
-                <div class="services__item" onclick="window.location.href='cases.php'">
-                    <div class="services__left">
-                        <div class="services__info">
-                            <h2 class="services__title">CRM Системы</h2>
-                            <p class="services__description">Разрабатываем современные сайты разного масштаба под ключ.
-                            </p>
-                        </div>
-                        <div class="services__tags">
-                            <a href="post.php" class="tag">Внедрение и поддержка AmoCrm</a>
-                            <a href="post.php" class="tag">Внедрение и поддержка Битрикс 24</a>
-                            <a href="post.php" class="tag">Телефония и интеграция</a>
-                        </div>
-                    </div>
-
-                    <div class="services__right">
-                        <span>Подробнее</span>
-                        <div class="services__icon"><img src="img/arrow-right.svg" alt="arrow"></div>
-
-                    </div>
-                </div>
-
-                 <div class="services__item" onclick="window.location.href='cases.php'">
-                    <div class="services__left">
-                        <div class="services__info">
-                            <h2 class="services__title">Реклама и продвижение</h2>
-                            <p class="services__description">Разрабатываем современные сайты разного масштаба под ключ.
-                            </p>
-                        </div>
-                        <div class="services__tags">
-                            <a href="post.php" class="tag">Медийная реклама</a>
-                            <a href="post.php" class="tag">Яндекс Директ</a>
-                            <a href="post.php" class="tag">SEO-продвижение</a>
-                        </div>
-                    </div>
-
-                    <div class="services__right">
-                        <span>Подробнее</span>
-                        <div class="services__icon"><img src="img/arrow-right.svg" alt="arrow"></div>
-
-                    </div>
-                </div>
-
-                <div class="services__item" onclick="window.location.href='cases.php'">
-                    <div class="services__left">
-                        <div class="services__info">
-                            <h2 class="services__title">Автоматизация</h2>
-                            <p class="services__description">Разрабатываем современные сайты разного масштаба под ключ.
-                            </p>
-                        </div>
-                        <div class="services__tags">
-                            <a href="post.php" class="tag">Медийная реклама</a>
-                            <a href="post.php" class="tag">Яндекс Директ</a>
-                            <a href="post.php" class="tag">SEO-продвижение</a>
-                        </div>
-                    </div>
-
-                    <div class="services__right">
-                        <span>Подробнее</span>
-                        <div class="services__icon"><img src="img/arrow-right.svg" alt="arrow"></div>
-
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
 

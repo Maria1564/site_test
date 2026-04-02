@@ -56,56 +56,6 @@ section{
   margin-top: 200px;
 }
 
-.title {
-  display: flex;
-  align-items: start;
-  flex-wrap: wrap;
-  gap: 140px;
-}
-
-.badge {
-  font-size: 14px;
-  font-weight: 500;
-  border: 1px solid var(--color-gray);
-  border-radius: 8px;
-  padding: 10px;
-  margin: 12px 0;
-}
-
-.title-content {
-  font-size: 80px;
-  font-weight: 600;
-  max-width: 1114px;
-}
-
-.portofolio__cards {
-  margin-top: 80px;
-  width: 100%;
-  display: flex;
-  gap: 40px 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.portfolio__btn {
-  margin-top: 60px;
-  width: 100%;
-  padding: 50px 0;
-  background: transparent;
-  text-transform: uppercase;
-  border: 1px solid var(--color-gray);
-  border-radius: 20px;
-  color: var(--color-white);
-  font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: background 0.5s;
-}
-
-.portfolio__btn:hover {
-  background-color: var(--color-gray-5);
-}
-
 .benefits__cards {
   display: flex;
   align-items: stretch;
@@ -227,10 +177,6 @@ section{
   .benefits__card-text {
     font-size: 14px;
   }
-
-  .title {
-    gap: 50px;
-  }
 }
 
 @media (max-width: 1700px) {
@@ -244,43 +190,16 @@ section{
   }
 }
 
-@media (max-width: 1530px) {
-  .portofolio__cards {
-    gap: 70px;
-  }
-
-  .title-content {
-    font-size: 70px;
-  }
-}
-
-
 @media (max-width: 1300px) {
   .header__content {
     gap: 20px;
     padding-bottom: 85px;
   }
 
-  .title {
-    gap: 10px;
-    flex-direction: column;
-  }
-
-  .badge {
-    margin: 0;
-  }
-
-  .portofolio__cards {
-    margin-top: 35px;
-  }
-
   section {
     margin-top: 46px;
   }
 
-  .portofolio__cards {
-    gap: 35px;
-  }
 }
 
 @media (max-width: 1260px) {
@@ -292,10 +211,6 @@ section{
 
 @media (max-width: 1090px) {
   .about__title {
-    font-size: 48px;
-  }
-
-  .title-content {
     font-size: 48px;
   }
 
@@ -353,10 +268,6 @@ section{
     font-size: 32px;
   }
 
-  .title-content {
-    font-size: 32px;
-  }
-
   .header__arrows {
     margin-right: 5%;
   }
@@ -376,21 +287,11 @@ section{
   }
 }
 
-
-
 @media (max-width: 550px) {
-  .portfolio__btn {
-    padding: 25px 0;
-  }
-
   .about__info-text {
     max-width: 168px;
   }
 }
-
-
-
-
 
 @media (max-width: 470px) {
   .header__content {
@@ -447,8 +348,6 @@ section{
     height: 20px;
     min-width: 20px;
   }
-
-
 }
 
 @media (max-height: 620px) {
