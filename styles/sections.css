@@ -199,3 +199,64 @@
     padding: 0px 8px 24px 14px;
   }
 }
+
+
+/* tariffs */
+
+.tariffs__list {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tariffs__card {
+  padding: 49px 0 49px 40px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-gray-17);
+  border: 1px solid var(--color-gray-18);
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.tariffs__left {
+  max-width: 700px;
+}
+
+.tariffs__title {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.tariffs__description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #FFFFFF80;
+}
+
+.tariffs__right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 470PX;
+  align-items: start;
+}
+
+.tariffs__label-price {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  color: var(--color-white);
+}
+
+.tariffs__price {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 140%;
+  color: var(--color-white);
+}

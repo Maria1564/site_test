@@ -153,6 +153,40 @@
 
         <?php include __DIR__ . '/components/section-benefits.php'; ?>
 
+        <section class="tariffs">
+            <?php
+            renderSectionTitle(
+                'Цены',
+                'Цена каждого проекта определяется индивидуально',
+                "",
+                "Но примерный порядок текущих цен можно определить исходя из стоимости часа сотрудника. Ниже представлены примерные цены на некоторые виды услуг"
+            );
+            ?>
+
+            <div class="tariffs__list">
+                <div class="tariffs__card">
+                    <div class="tariffs__left">
+                        <h4 class="tariffs__title">Лендинги</h4>
+                        <p class="tariffs__description">Создаётся на no-code платформе с уникальным дизайном под вас</p>
+                    </div>
+                    <div class="tariffs__right">
+                        <span class="tariffs__label-price">Цена</span>
+                        <span class="tariffs__price">от 50 000 рублей</span>
+                    </div>
+                </div>
+                <div class="tariffs__card">
+                    <div class="tariffs__left">
+                        <h4 class="tariffs__title">Корпоративные сайты</h4>
+                        <p class="tariffs__description">Делаем маленький лендинг до 8 экранов очень быстро, с
+                            минимальными правками и частично уникальным дизайном. Приоритет — скорость </p>
+                    </div>
+                    <div class="tariffs__right">
+                        <span class="tariffs__label-price">Цена</span>
+                        <span class="tariffs__price">от 200 000 рублей</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </div>
 

@@ -1,5 +1,5 @@
 <?php
-function renderSectionTitle($badge = '', $title = '', $className = '')
+function renderSectionTitle($badge = '', $title = '', $className = '', $description = '')
 {
     $classes = trim('section-title ' . $className);
 ?>
@@ -8,9 +8,20 @@ function renderSectionTitle($badge = '', $title = '', $className = '')
             <div class="section-title__badge"><?= $badge ?></div>
         <?php endif; ?>
 
-        <h2 class="section-title__content">
-            <?= $title ?>
-        </h2>
+        <?php if ($description): ?>
+            <div class="section-title__text">
+                <h2 class="section-title__content">
+                    <?= $title ?>
+                </h2>
+                <p class="section-title__description">
+                    <?= $description ?>
+                </p>
+            </div>
+        <?php else: ?>
+            <h2 class="section-title__content">
+                <?= $title ?>
+            </h2>
+        <?php endif; ?>
     </div>
 <?php
 }
