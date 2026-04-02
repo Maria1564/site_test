@@ -53,6 +53,10 @@ ul {
   list-style: none;
 }
 
+section{
+  margin-top: 200px;
+}
+
 input.inp {
   border: none;
   outline: none;
@@ -101,11 +105,18 @@ input.inp::placeholder {
   justify-self: center;
 }
 
+@media (max-width: 1300px) {
+  section {
+    margin-top: 46px;
+  }
+}
+
 @media (max-width: 1260px) {
   .container {
     width: 92%;
   }
 }
+
 
 @media (max-width: 730px) {
   .title {
