@@ -7,9 +7,11 @@ function renderDirectionHero(
     $description = '',
     $buttonText = '',
     $background = '',
-    $breadcrumbsClass = ''
+    $breadcrumbsClass = '',
+    $buttonClass = ''
 ) {
     $style = $background ? "--header-bg: url('{$background}');" : '';
+    $buttonClasses = trim("internal-page__btn header__btn $buttonClass");
 ?>
     <header class="header" style="<?= htmlspecialchars($style, ENT_QUOTES, 'UTF-8') ?>">
         <div class="header__wrapper">
@@ -20,7 +22,7 @@ function renderDirectionHero(
                     <p class="header__description"><?= htmlspecialchars($description, ENT_QUOTES, 'UTF-8') ?></p>
                 <?php endif; ?>
                 <?php if ($buttonText): ?>
-                    <button class="direction__btn header__btn"><?= htmlspecialchars($buttonText, ENT_QUOTES, 'UTF-8') ?></button>
+                    <button class="<?= htmlspecialchars($buttonClasses, ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($buttonText, ENT_QUOTES, 'UTF-8') ?></button>
                 <?php endif; ?>
             </div>
         </div>

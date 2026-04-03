@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="styles/footer.css?v=20260490">
     <link rel="stylesheet" href="styles/popups.css?v=20260490">
     <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260490">
-    <link rel="stylesheet" href="styles/direction.css?v=20260490">
     <link rel="stylesheet" href="styles/typography.css?v=20260490">
     <link rel="stylesheet" href="styles/section-title.css?v=20260490">
     <link rel="stylesheet" href="styles/case-card.css?v=20260490">
     <link rel="stylesheet" href="styles/sections.css?v=20260491">
+    <link rel="stylesheet" href="styles/internal-pages.css?v=20260490">
     <link rel="stylesheet" href="styles/form.css?v=20260490">
     <link rel="stylesheet" href="styles/header.css?v=20260490">
 
@@ -25,7 +25,6 @@
     <?php include __DIR__ . '/components/popups.php'; ?>
     <?php include __DIR__ . '/components/mobile-menu.php'; ?>
     <?php include __DIR__ . '/components/header-nav.php'; ?>
-    <?php include __DIR__ . '/components/section-title.php'; ?>
     <?php include __DIR__ . '/components/section-direction-hero.php'; ?>
 
     <?php
@@ -35,7 +34,7 @@
         'Разрабатываем и поддерживаем сайты, внедряем CRM и телефонию, поддерживаем уже готовые проекты',
         'Запросить коммерческое',
         '../img/bg.png',
-        'direction_breadcrumb',
+        'internal-page__breadcrumb',
     );
     ?>
     <div class="container">
@@ -54,7 +53,7 @@
         <?php
         include __DIR__ . '/components/form.php';
 
-        renderForm('direction__form');
+        renderForm('internal-page__form');
         ?>
 
         <?php include __DIR__ . '/components/footer.php'; ?>

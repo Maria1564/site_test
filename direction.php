@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="styles/footer.css?v=20260490">
     <link rel="stylesheet" href="styles/popups.css?v=20260490">
     <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260490">
-    <link rel="stylesheet" href="styles/direction.css?v=20260490">
+    <link rel="stylesheet" href="styles/direction.css?v=20260491">
     <link rel="stylesheet" href="styles/typography.css?v=20260490">
     <link rel="stylesheet" href="styles/section-title.css?v=20260490">
     <link rel="stylesheet" href="styles/case-card.css?v=20260490">
     <link rel="stylesheet" href="styles/sections.css?v=20260491">
+    <link rel="stylesheet" href="styles/internal-pages.css?v=20260490">
     <link rel="stylesheet" href="styles/form.css?v=20260490">
     <link rel="stylesheet" href="styles/header.css?v=20260490">
 
@@ -92,7 +93,7 @@
         'Разрабатываем и поддерживаем сайты, внедряем CRM и телефонию, поддерживаем уже готовые проекты',
         'Запросить коммерческое',
         '../img/bg.png',
-        'direction_breadcrumb',
+        'internal-page__breadcrumb',
     );
     ?>
     <div class="container">
@@ -112,7 +113,7 @@
                             <h4 class="services__title"><?= htmlspecialchars($tag, ENT_QUOTES, 'UTF-8') ?></h4>
                             <p class="services__description">Разрабатываем современные сайты разного масштаба под ключ.</p>
                         </div>
-                        <a href="#" class="services__link">
+                        <a href="service.php" class="services__link">
                             <span class="services__link-text">Подробнее</span>
                             <div class="services__link-icon"><img src="./img/arrow-right.svg" alt="" class="arrow"></div>
                         </a>
@@ -134,7 +135,7 @@
         <?php
         include __DIR__ . '/components/form.php';
 
-        renderForm('direction__form');
+        renderForm('internal-page__form');
         ?>
 
         <?php include __DIR__ . '/components/footer.php'; ?>

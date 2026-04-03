@@ -38,6 +38,10 @@
   .section-title__content {
     font-size: 64px;
   }
+
+  .section-title__description {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 1840px) {
@@ -61,11 +65,19 @@
   .section-title__content {
     font-size: 48px;
   }
+
+  .section-title__description {
+    font-size: 16px;
+  }
 }
 
 
 @media (max-width:730px) {
   .section-title__content {
     font-size: 32px;
+  }
+
+  .section-title__description {
+    font-size: 14px;
   }
 }
