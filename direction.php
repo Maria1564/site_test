@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Направление</title>
-    <link rel="stylesheet" href="styles/shared.css?v=20260338" />
-    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260335" />
-    <link rel="stylesheet" href="styles/header-nav.css?v=20260335">
-    <link rel="stylesheet" href="styles/footer.css?v=20260335">
-    <link rel="stylesheet" href="styles/popups.css?v=20260335">
-    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260335">
-    <link rel="stylesheet" href="styles/direction.css?v=20260336">
-    <link rel="stylesheet" href="styles/typography.css?v=20260336">
-    <link rel="stylesheet" href="styles/section-title.css?v=20260402">
-    <link rel="stylesheet" href="styles/case-card.css?v=20260335">
-    <link rel="stylesheet" href="styles/sections.css?v=20260404">
-    <link rel="stylesheet" href="styles/form.css?v=20260335">
+    <link rel="stylesheet" href="styles/shared.css?v=20260490" />
+    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260490" />
+    <link rel="stylesheet" href="styles/header-nav.css?v=20260490">
+    <link rel="stylesheet" href="styles/footer.css?v=20260490">
+    <link rel="stylesheet" href="styles/popups.css?v=20260490">
+    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260490">
+    <link rel="stylesheet" href="styles/direction.css?v=20260490">
+    <link rel="stylesheet" href="styles/typography.css?v=20260490">
+    <link rel="stylesheet" href="styles/section-title.css?v=20260490">
+    <link rel="stylesheet" href="styles/case-card.css?v=20260490">
+    <link rel="stylesheet" href="styles/sections.css?v=20260491">
+    <link rel="stylesheet" href="styles/form.css?v=20260490">
+    <link rel="stylesheet" href="styles/header.css?v=20260490">
 
 </head>
 
@@ -92,7 +93,6 @@
         'Запросить коммерческое',
         '../img/bg.png',
         'direction_breadcrumb',
-        "direction__btn "
     );
     ?>
     <div class="container">

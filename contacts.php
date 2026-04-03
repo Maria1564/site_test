@@ -7,15 +7,15 @@
     <title>Document</title>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=b0681d51-5fa4-451e-81bf-0f15af2c37d1"
         type="text/javascript"></script>
-    <link rel="stylesheet" href="styles/fonts.css?v=20260335" />
-    <link rel="stylesheet" href="styles/shared.css?v=20260338" />
-    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260335" />
-    <link rel="stylesheet" href="styles/header-nav.css?v=20260335">
-    <link rel="stylesheet" href="styles/footer.css?v=20260335">
-    <link rel="stylesheet" href="styles/popups.css?v=20260335">
-    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260335">
-    <link rel="stylesheet" href="styles/form.css?v=20260335">
-    <link rel="stylesheet" href="styles/contacts.css?v=20260335">
+    <link rel="stylesheet" href="styles/fonts.css?v=20260490" />
+    <link rel="stylesheet" href="styles/shared.css?v=20260490" />
+    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260490" />
+    <link rel="stylesheet" href="styles/header-nav.css?v=20260490">
+    <link rel="stylesheet" href="styles/footer.css?v=20260490">
+    <link rel="stylesheet" href="styles/popups.css?v=20260490">
+    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260490">
+    <link rel="stylesheet" href="styles/form.css?v=20260490">
+    <link rel="stylesheet" href="styles/contacts.css?v=20260490">
 </head>
 
 <body>
