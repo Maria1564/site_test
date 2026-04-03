@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/section-title.css?v=20260402">
     <link rel="stylesheet" href="styles/case-card.css?v=20260335">
     <link rel="stylesheet" href="styles/sections.css?v=20260404">
+    <link rel="stylesheet" href="styles/form.css?v=20260335">
 
 </head>
 
@@ -185,8 +186,41 @@
                         <span class="tariffs__price">от 200 000 рублей</span>
                     </div>
                 </div>
+                <div class="tariffs__card">
+                    <div class="tariffs__left">
+                        <h4 class="tariffs__title">Интернет-магазины</h4>
+                        <p class="tariffs__description">Когда нужна админка и разработка на полноценном html+css</p>
+                    </div>
+                    <div class="tariffs__right">
+                        <span class="tariffs__label-price">Цена</span>
+                        <span class="tariffs__price">от 500 000 рублей</span>
+                    </div>
+                </div>
+
+                <div class="tariffs__card">
+                    <div class="tariffs__left">
+                        <h4 class="tariffs__title">Сайты-каталоги</h4>
+                        <p class="tariffs__description">Когда нужна админка и разработка на полноценном html+css</p>
+                    </div>
+                    <div class="tariffs__right">
+                        <span class="tariffs__label-price">Цена</span>
+                        <span class="tariffs__price">от 450 000 рублей</span>
+                    </div>
+                </div>
             </div>
+
+            <button class="tariffs__action"><img src="./img/telegram-white.svg" alt="telegram">Запросить расчёт именно по вашему проекту </button>
         </section>
+
+        <?php include __DIR__ . '/components/section-about.php'; ?>
+
+        <?php
+        include __DIR__ . '/components/form.php';
+
+        renderForm('direction__form');
+        ?>
+
+        <?php include __DIR__ . '/components/footer.php'; ?>
 
     </div>
 

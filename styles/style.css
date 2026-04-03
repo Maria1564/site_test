@@ -51,70 +51,6 @@
   font-weight: 500;
   line-height: 140%;
 }
-
-
-
-.about {
-  position: relative;
-}
-
-.about__title {
-  margin: 0 auto;
-  max-width: max-content;
-  font-size: 72px;
-  font-weight: 600;
-  margin-bottom: 60px;
-}
-
-.about__img {
-  overflow: hidden;
-  border-radius: 30px;
-  width: 100%;
-}
-
-.about__img>img {
-  width: 100%;
-}
-
-.about__info {
-  background-color: var(--color-white);
-  padding: 30px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 85%;
-  margin: 0 auto;
-  border-radius: 20px;
-  position: absolute;
-  bottom: 54px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.about__info-text {
-  color: var(--color-black-2);
-  font-size: 24px;
-  font-weight: 500;
-  max-width: 634px;
-}
-
-.about__btn {
-  background-color: var(--color-black-2);
-  padding: 20px 40px;
-  border-radius: 10px;
-  color: var(--color-white);
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.5s;
-}
-
-.about__btn:hover {
-  background: var(--color-gray-3);
-}
-
-
-
 /* adaptive */
 @media (max-width: 1700px) {
   .header__title {
@@ -134,19 +70,6 @@
   }
 }
 
-@media (max-width: 1260px) {
-  .about__info-text {
-    font-size: 16px;
-    max-width: 355px;
-  }
-}
-
-@media (max-width: 1090px) {
-  .about__title {
-    font-size: 48px;
-  }
-}
-
 @media (max-width: 920px) {
   .header__title {
     font-size: 42px;
@@ -158,17 +81,6 @@
 }
 
 @media (max-width: 850px) {
-  .about__btn {
-    font-size: 12px;
-  }
-
-  .about__info {
-    margin-top: 10px;
-    position: static;
-    transform: translateX(0px);
-    width: 95%;
-  }
-
   .header__title {
     max-width: 603px;
   }
@@ -183,10 +95,6 @@
 }
 
 @media (max-width: 730px) {
-  .about__title {
-    font-size: 32px;
-  }
-
   .header__arrows {
     margin-right: 5%;
   }
@@ -195,40 +103,11 @@
     width: 103px;
   }
 
-  .about__info-text {
-    font-size: 12px;
-    max-width: 260px;
-  }
-
-  .about__info {
-    background-color: var(--color-white);
-    padding: 15px;
-  }
-}
-
-@media (max-width: 550px) {
-  .about__info-text {
-    max-width: 168px;
-  }
 }
 
 @media (max-width: 470px) {
   .header__content {
     padding-bottom: 55px;
-  }
-
-  .about__info {
-    gap: 10px;
-    flex-direction: column;
-  }
-
-  .about__btn {
-    width: 100%;
-  }
-
-  .about__info-text {
-    text-align: center;
-    max-width: max-content;
   }
 }
 

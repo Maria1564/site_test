@@ -201,6 +201,132 @@
 }
 
 
+/* about */
+
+.about {
+  position: relative;
+}
+
+.about__title {
+  margin: 0 auto;
+  max-width: max-content;
+  font-size: 72px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.about__img {
+  overflow: hidden;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.about__img>img {
+  width: 100%;
+}
+
+.about__info {
+  background-color: var(--color-white);
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 54px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about__info-text {
+  color: var(--color-black-2);
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 634px;
+}
+
+.about__btn {
+  background-color: var(--color-black-2);
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.about__btn:hover {
+  background: var(--color-gray-3);
+}
+
+@media (max-width: 1260px) {
+  .about__info-text {
+    font-size: 16px;
+    max-width: 355px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .about__title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 850px) {
+  .about__btn {
+    font-size: 12px;
+  }
+
+  .about__info {
+    margin-top: 10px;
+    position: static;
+    transform: translateX(0px);
+    width: 95%;
+  }
+}
+
+@media (max-width: 730px) {
+  .about__title {
+    font-size: 32px;
+  }
+
+  .about__info-text {
+    font-size: 12px;
+    max-width: 260px;
+  }
+
+  .about__info {
+    background-color: var(--color-white);
+    padding: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .about__info-text {
+    max-width: 168px;
+  }
+}
+
+@media (max-width: 470px) {
+  .about__info {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .about__btn {
+    width: 100%;
+  }
+
+  .about__info-text {
+    text-align: center;
+    max-width: max-content;
+  }
+}
+
+
 /* tariffs */
 
 .tariffs__list {
@@ -208,6 +334,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .tariffs__card {
@@ -224,6 +351,7 @@
 
 .tariffs__left {
   max-width: 700px;
+  flex: 1;
 }
 
 .tariffs__title {
@@ -259,4 +387,23 @@
   font-weight: 400;
   line-height: 140%;
   color: var(--color-white);
+}
+
+.tariffs__action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  padding: 31px 0;
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  border-radius: 10px;
+  color: var(--color-white);
+  cursor: pointer;
+transition: opacity .5s;
+}
+
+.tariffs__action:hover {
+  opacity: 0.5;
 }

@@ -45,21 +45,7 @@
   <div class="container">
     <?php include __DIR__ . '/components/section-portfolio.php'; ?>
     <?php include __DIR__ . '/components/section-benefits.php'; ?>
-
-    <section class="about">
-      <h2 class="about__title">Посмотрите, как мы работаем</h2>
-      <div class="about__img">
-        <img src="img/processWork.png" alt="process work" />
-      </div>
-      <div class="about__info">
-        <p class="about__info-text">
-          Рассказываем о том, как происходит процесс работы над созданием
-          сайта
-        </p>
-
-        <button class="about__btn">Смотреть видео</button>
-      </div>
-    </section>
+    <?php include __DIR__ . '/components/section-about.php'; ?>
 
     <?php include __DIR__ . '/components/footer.php'; ?>
   </div>

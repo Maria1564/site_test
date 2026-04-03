@@ -78,7 +78,7 @@
 }
 
 
-.services__list {
+.services > .services__list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
@@ -142,7 +142,7 @@
 }
 
 @media (max-width: 1200px) {
-  .services__list {
+  .services > .services__list {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -152,4 +152,14 @@
   .services__card:last-child:nth-child(3n + 2) {
     grid-column: auto;
   }
+}
+
+@media (max-width: 740px) {
+  .services > .services__list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.direction__form {
+    margin-top: 200px;
 }
