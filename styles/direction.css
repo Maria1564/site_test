@@ -1,45 +1,14 @@
-.header {
-  height: 100dvh;
-  width: 100%;
-  background-image: var(--header-bg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.direction_breadcrunb {
+.direction_breadcrumb {
     margin-bottom: 37px;
     justify-content: center;
 }
 
-.direction_breadcrunb > .breadcrumbs__item {
+.direction_breadcrumb > .breadcrumbs__item {
     background-color: transparent;
     border: 1px solid #FFFFFF33;
 }   
 
-.header__title {
-    font-size: 96px;
-    font-weight: 600;
-    line-height: 95%;
-    color: var(--color-white);
-}
-
-.header__description {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 140%;
-    color: var(--color-white);
-    margin: 49px 0;
-}
-
-.header__btn {
-    margin: 0 auto;
-}
 
 .direction__btn {
     width: 455px;
@@ -53,24 +22,6 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-}
-
-.company-intro {
-    margin: 100px 0 0 ;
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.company-intro__title {
-    font-size: 80px;
-    font-weight: 600;
-    max-width: 832px;
-}
-
-.company-intro__content {
-    max-width: 774px;
 }
 
 
@@ -142,18 +93,6 @@
 }
 
 @media (max-width: 1390px) {
-    .header__title {
-        font-size: 80px;
-    }
-
-    .header__description {
-        font-size: 15px;
-    }
-
-    .company-intro__title {
-        font-size: 64px;
-    }
-
     .direction__btn {
         font-size: 18px;
         padding: 26px 0;
@@ -178,18 +117,6 @@
 }
 
 @media (max-width: 1090px) {
-    .header__title {
-        font-size: 64px;
-    }
-
-    .header__description {
-        font-size: 14px;
-    }
-
-    .company-intro__title {
-        font-size: 48px;
-    }
-
     .direction__btn {
         width: 100%;
         font-size: 16px;
@@ -214,16 +141,6 @@
     }
 }
 
-@media (max-width: 960px) {
-    .company-intro {
-        flex-direction: column;
-    }
-
-    .company-intro__content {
-        max-width: 100%;
-    }
-}
-
 @media (max-width: 740px) {
   .services > .services__list {
     grid-template-columns: 1fr;
@@ -235,18 +152,6 @@
 }
 
 @media (max-width: 730px) {
-    .header__title {
-        font-size: 42px;
-    }
-
-    .header__description {
-        font-size: 12px;
-    }
-
-    .company-intro__title {
-        font-size: 32px;
-    }
-
     .direction__btn {
         font-size: 14px;
         padding: 18px 0;

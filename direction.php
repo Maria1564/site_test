@@ -82,48 +82,21 @@
     <?php include __DIR__ . '/components/mobile-menu.php'; ?>
     <?php include __DIR__ . '/components/header-nav.php'; ?>
     <?php include __DIR__ . '/components/section-title.php'; ?>
+    <?php include __DIR__ . '/components/section-direction-hero.php'; ?>
 
-    <header class="header" style="--header-bg: url('../img/bg.png');">
-        <div class="header__wrapper">
-            <div class="container">
-                <?php include __DIR__ . '/components/breadcrumbs.php'; ?>
-                <?php renderBreadcrumbItems(['Главная'], 'direction_breadcrunb'); ?>
-                <h1 class="header__title"><?= htmlspecialchars($direction['title'], ENT_QUOTES, 'UTF-8') ?></h1>
-                <p class="header__description">Разрабатываем и поддерживаем сайты, внедряем CRM и телефонию,
-                    поддерживаем уже готовые проекты</p>
-                <button class="direction__btn header__btn">Запросить коммерческое</button>
-            </div>
-        </div>
-    </header>
+    <?php
+    renderDirectionHero(
+        ['Главная'],
+        $direction['title'],
+        'Разрабатываем и поддерживаем сайты, внедряем CRM и телефонию, поддерживаем уже готовые проекты',
+        'Запросить коммерческое',
+        '../img/bg.png',
+        'direction_breadcrumb',
+        "direction__btn "
+    );
+    ?>
     <div class="container">
-        <section class="company-intro">
-            <h2 class="company-intro__title">Делаем сайты с 2015 года по всей России</h2>
-
-            <div class="company-intro__content">
-                <p class="paragraph">Сайт — это лицо бизнеса в интернете, средство коммуникации с клиентами и
-                    мощный инструмент продаж. В эпоху цифровизации сложно представить компанию или личный проект без
-                    собственного веб-ресурса. Однако многие сталкиваются с вопросом: <span class="text_white">сколько
-                        стоит сделать сайт и от
-                        чего зависит цена?</span>
-                </p>
-                <p class="paragraph">Ответ на этот вопрос многогранен, ведь стоимость <span
-                        class="text_white_underline">зависит от множества факторов</span>,
-                    начиная с типа сайта и заканчивая выбором платформы и исполнителя. В этой статье мы подробно
-                    разберём ключевые аспекты формирования цен, чтобы вы могли выбрать оптимальный вариант под свои цели
-                    и бюджет.</p>
-                <p class="paragraph">Сайт — это лицо бизнеса в интернете, средство коммуникации с клиентами и
-                    мощный инструмент продаж. В эпоху цифровизации сложно представить компанию или личный проект без
-                    собственного веб-ресурса. Однако многие сталкиваются с вопросом: <span class="text_white">сколько
-                        стоит сделать сайт и от
-                        чего зависит цена?</span>
-                </p>
-                <p class="paragraph">Ответ на этот вопрос многогранен, ведь стоимость <span
-                        class="text_white_underline">зависит от множества факторов</span>,
-                    начиная с типа сайта и заканчивая выбором платформы и исполнителя. В этой статье мы подробно
-                    разберём ключевые аспекты формирования цен, чтобы вы могли выбрать оптимальный вариант под свои цели
-                    и бюджет.</p>
-            </div>
-        </section>
+        <?php include __DIR__ . '/components/section-intro.php'; ?>
 
         <section class="services">
             <?php
@@ -154,63 +127,7 @@
 
         <?php include __DIR__ . '/components/section-benefits.php'; ?>
 
-        <section class="tariffs">
-            <?php
-            renderSectionTitle(
-                'Цены',
-                'Цена каждого проекта определяется индивидуально',
-                "",
-                "Но примерный порядок текущих цен можно определить исходя из стоимости часа сотрудника. Ниже представлены примерные цены на некоторые виды услуг"
-            );
-            ?>
-
-            <div class="tariffs__list">
-                <div class="tariffs__card">
-                    <div class="tariffs__left">
-                        <h4 class="tariffs__title">Лендинги</h4>
-                        <p class="tariffs__description">Создаётся на no-code платформе с уникальным дизайном под вас</p>
-                    </div>
-                    <div class="tariffs__right">
-                        <span class="tariffs__label-price">Цена</span>
-                        <span class="tariffs__price">от 50 000 рублей</span>
-                    </div>
-                </div>
-                <div class="tariffs__card">
-                    <div class="tariffs__left">
-                        <h4 class="tariffs__title">Корпоративные сайты</h4>
-                        <p class="tariffs__description">Делаем маленький лендинг до 8 экранов очень быстро, с
-                            минимальными правками и частично уникальным дизайном. Приоритет — скорость </p>
-                    </div>
-                    <div class="tariffs__right">
-                        <span class="tariffs__label-price">Цена</span>
-                        <span class="tariffs__price">от 200 000 рублей</span>
-                    </div>
-                </div>
-                <div class="tariffs__card">
-                    <div class="tariffs__left">
-                        <h4 class="tariffs__title">Интернет-магазины</h4>
-                        <p class="tariffs__description">Когда нужна админка и разработка на полноценном html+css</p>
-                    </div>
-                    <div class="tariffs__right">
-                        <span class="tariffs__label-price">Цена</span>
-                        <span class="tariffs__price">от 500 000 рублей</span>
-                    </div>
-                </div>
-
-                <div class="tariffs__card">
-                    <div class="tariffs__left">
-                        <h4 class="tariffs__title">Сайты-каталоги</h4>
-                        <p class="tariffs__description">Когда нужна админка и разработка на полноценном html+css</p>
-                    </div>
-                    <div class="tariffs__right">
-                        <span class="tariffs__label-price">Цена</span>
-                        <span class="tariffs__price">от 450 000 рублей</span>
-                    </div>
-                </div>
-            </div>
-
-            <button class="tariffs__action"><img src="./img/telegram-white.svg" alt="telegram">Запросить расчёт именно по вашему проекту </button>
-        </section>
+        <?php include __DIR__ . '/components/section-tariffs.php'; ?>
 
         <?php include __DIR__ . '/components/section-about.php'; ?>
 
