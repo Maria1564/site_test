@@ -73,10 +73,6 @@
     max-width: 774px;
 }
 
-.services {
-    margin-bottom: 200px;
-}
-
 
 .services > .services__list {
   display: grid;
@@ -141,6 +137,33 @@
     border: 1px solid var(--color-gray-19)
 }
 
+.direction__form {
+    margin-top: 200px;
+}
+
+@media (max-width: 1390px) {
+    .header__title {
+        font-size: 80px;
+    }
+
+    .header__description {
+        font-size: 15px;
+    }
+
+    .company-intro__title {
+        font-size: 64px;
+    }
+
+    .direction__btn {
+        font-size: 18px;
+        padding: 26px 0;
+    }
+
+    .services > .services__list {
+        margin-top: 60px;
+    }
+}
+
 @media (max-width: 1200px) {
   .services > .services__list {
     grid-template-columns: repeat(2, 1fr);
@@ -154,12 +177,86 @@
   }
 }
 
+@media (max-width: 1090px) {
+    .header__title {
+        font-size: 64px;
+    }
+
+    .header__description {
+        font-size: 14px;
+    }
+
+    .company-intro__title {
+        font-size: 48px;
+    }
+
+    .direction__btn {
+        width: 100%;
+        font-size: 16px;
+        padding: 22px 0;
+    }
+
+    .services__title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .services__description {
+        font-size: 16px;
+    }
+
+    .services__link-text {
+        font-size: 16px;
+    }
+
+    .services > .services__list {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 960px) {
+    .company-intro {
+        flex-direction: column;
+    }
+
+    .company-intro__content {
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 740px) {
   .services > .services__list {
     grid-template-columns: 1fr;
   }
+
+  .services__card {
+    min-height: 240px;
+  }
 }
 
-.direction__form {
-    margin-top: 200px;
+@media (max-width: 730px) {
+    .header__title {
+        font-size: 42px;
+    }
+
+    .header__description {
+        font-size: 12px;
+    }
+
+    .company-intro__title {
+        font-size: 32px;
+    }
+
+    .direction__btn {
+        font-size: 14px;
+        padding: 18px 0;
+    }
+
+    .direction__form {
+        margin-top: 100px;
+    }
+
+    .services > .services__list {
+        margin-top: 30px;
+    }
 }

@@ -80,6 +80,12 @@ h4 {
    width: 100%;
 }
 
+@media (max-width: 1390px) {
+    .paragraph {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 1024px) {
     .paragraph,
     .list  li  {

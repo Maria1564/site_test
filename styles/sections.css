@@ -117,8 +117,44 @@
   }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 1390px) {
+  .cta-banner__description {
+    font-size: 18px;
+  }
 
+  .cta-banner__title {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .cta-banner__title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cta-banner__description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 730px) {
+  .cta-banner__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-banner__description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 570px) {
+  .cta-banner__btn {
+    max-width: 100%;
+  }
 }
 
 
@@ -401,9 +437,111 @@
   border-radius: 10px;
   color: var(--color-white);
   cursor: pointer;
-transition: opacity .5s;
+  font-size: 20px;
+  font-weight: 700;
+  transition: opacity .5s;
 }
 
 .tariffs__action:hover {
   opacity: 0.5;
+}
+
+@media (max-width: 1390px) {
+  .tariffs__list {
+    margin-top: 50px;
+  }
+
+  .tariffs__title {
+    font-size: 28px;
+  }
+
+  .tariffs__description {
+    font-size: 18px;
+  }
+
+  .tariffs__label-price {
+    font-size: 18px;
+  }
+
+  .tariffs__price {
+    font-size: 34px;
+  }
+
+  .tariffs__action {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .tariffs__list {
+    margin-top: 40px;
+  }
+
+  .tariffs__title {
+    font-size: 24px;
+  }
+
+  .tariffs__price {
+    font-size: 30px;
+  }
+
+  .tariffs__right {
+    width: 280px;
+  }
+
+  .tariffs__action {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tariffs__description {
+    font-size: 16px;
+  }
+
+  .tariffs__label-price {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tariffs__title {
+    font-size: 20px;
+  }
+
+  .tariffs__description {
+    font-size: 14px;
+  }
+
+  .tariffs__label-price {
+    font-size: 14px;
+  }
+
+  .tariffs__price {
+    font-size: 24px;
+  }
+
+  .tariffs__action {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 730px) {
+  .tariffs__list {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 635px) {
+  .tariffs__card {
+    flex-direction: column;
+    padding: 20px;
+    align-items: baseline;
+  }
+}
+
+@media (max-width: 430px) {
+  .tariffs__action {
+    font-size: 12px;
+  }
 }

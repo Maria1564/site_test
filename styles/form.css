@@ -187,3 +187,17 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 730px) {
+    .form {
+        padding: 10px;
+    }
+
+    .form__socials {
+        flex-direction: row;
+    }
+
+    .form__link {
+        padding: 18px 0;
+    }
+}

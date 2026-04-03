@@ -6,7 +6,7 @@
                 первый шиг и обсудим ваш проект,
                 это для вас ничего не будет стоит, зато вы сможете оценить сроки и стоимость реализации!</p>
         </div>
-        <button class="direction__btn">Связаться</button>
+        <button class="direction__btn cta-banner__btn">Связаться</button>
     </div>
     <div class="cta-banner__img">
         <img src="./img/pig-big.png" alt="pig">

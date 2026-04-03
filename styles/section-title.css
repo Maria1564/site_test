@@ -34,15 +34,15 @@
   color: #FFFFFF80;
 }
 
-@media (max-width: 1840px) {
-  .section-title {
-    gap: 50px;
+@media (max-width: 1390px) {
+  .section-title__content {
+    font-size: 64px;
   }
 }
 
-@media (max-width: 1530px) {
-  .section-title__content {
-    font-size: 70px;
+@media (max-width: 1840px) {
+  .section-title {
+    gap: 50px;
   }
 }
 

@@ -105,12 +105,6 @@ input.inp::placeholder {
   justify-self: center;
 }
 
-@media (max-width: 1300px) {
-  section {
-    margin-top: 46px;
-  }
-}
-
 @media (max-width: 1260px) {
   .container {
     width: 92%;
@@ -119,6 +113,8 @@ input.inp::placeholder {
 
 
 @media (max-width: 730px) {
+  
+
   .title {
     font-size: 40px;
   }
@@ -142,6 +138,10 @@ input.inp::placeholder {
   .related__list {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
+  }
+
+  section {
+    margin-top: 100px;
   }
 
 }
