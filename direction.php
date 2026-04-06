@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/internal-pages.css?v=20260490">
     <link rel="stylesheet" href="styles/form.css?v=20260490">
     <link rel="stylesheet" href="styles/header.css?v=20260490">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
 
@@ -130,6 +131,84 @@
 
         <?php include __DIR__ . '/components/section-tariffs.php'; ?>
 
+        <section class="development-stages">
+            <div class="">
+                <?php
+                renderSectionTitle(
+                    'Этапы',
+                    'Этапы и сроки разработки сайтов',
+                    "development-stages__title",
+                    'Но примерный порядок текущих цен можно определить исходя из стоимости часа сотрудника. Ниже представлены примерные цены на некоторые виды услуг'
+                );
+                ?>
+
+                <div class="development-stages__nav">
+                    <button class="development-stages__arrow development-stages__arrow--prev" type="button"
+                        aria-label="Назад">
+                        ←
+                    </button>
+                    <button class="development-stages__arrow development-stages__arrow--next" type="button"
+                        aria-label="Вперёд">
+                        →
+                    </button>
+                </div>
+            </div>
+
+            <div class="development-stages__slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="development-stages__slide swiper-slide">
+                        <div class="development-stages__top">
+                            <span class="development-stages__step">1</span>
+                            <!-- <span class="development-stages__label">Заказать этот этап</span> -->
+                        </div>
+                        <div class="development-stages__content">
+                            <div class="development-stages__days">3-4 дня</div>
+                            <h3 class="development-stages__card-title">Отправка и заполнение брифа</h3>
+                            <p class="development-stages__text">Разрабатываем современные сайты разного масштаба под
+                                ключ.</p>
+                        </div>
+                    </div>
+                    <div class="development-stages__slide swiper-slide">
+                        <div class="development-stages__top">
+                            <span class="development-stages__step">2</span>
+                            <!-- <span class="development-stages__label">Заказать этот этап</span> -->
+                        </div>
+                        <div class="development-stages__content">
+                            <div class="development-stages__days">3-4 дня</div>
+                            <h3 class="development-stages__card-title">Отправка и заполнение брифа</h3>
+                            <p class="development-stages__text">Разрабатываем современные сайты разного масштаба под
+                                ключ.</p>
+                        </div>
+                    </div>
+                    <div class="development-stages__slide swiper-slide">
+                        <div class="development-stages__top">
+                            <span class="development-stages__step">3</span>
+                            <!-- <span class="development-stages__label">Заказать этот этап</span> -->
+                        </div>
+                        <div class="development-stages__content">
+                            <div class="development-stages__days">3-4 дня</div>
+                            <h3 class="development-stages__card-title">Отправка и заполнение брифа</h3>
+                            <p class="development-stages__text">Разрабатываем современные сайты разного масштаба под
+                                ключ.</p>
+                        </div>
+                    </div>
+                    <div class="development-stages__slide swiper-slide">
+                        <div class="development-stages__top">
+                            <span class="development-stages__step">1</span>
+                            <!-- <span class="development-stages__label">Заказать этот этап</span> -->
+                        </div>
+                        <div class="development-stages__content">
+                            <div class="development-stages__days">3-4 дня</div>
+                            <h3 class="development-stages__card-title">Отправка и заполнение брифа</h3>
+                            <p class="development-stages__text">Разрабатываем современные сайты разного масштаба под
+                                ключ.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <?php include __DIR__ . '/components/section-about.php'; ?>
 
         <?php
@@ -145,6 +224,8 @@
 
     <script src="script.js?v=20260330"></script>
     <script src="popup.js?v=20260330"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="slider.js?v=20260330"></script>
 </body>
 
 </html>

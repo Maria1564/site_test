@@ -17,6 +17,7 @@
 .section-title__content {
   font-size: 80px;
   font-weight: 600;
+  line-height: 110%;
   max-width: 1114px;
 }
 
