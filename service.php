@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="styles/internal-pages.css?v=20260490">
     <link rel="stylesheet" href="styles/form.css?v=20260490">
     <link rel="stylesheet" href="styles/header.css?v=20260490">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
 </head>
 
@@ -48,6 +50,8 @@
 
         <?php include __DIR__ . '/components/section-tariffs.php'; ?>
 
+        <?php include __DIR__ . '/components/section-stages.php'; ?>
+
         <?php include __DIR__ . '/components/section-about.php'; ?>
 
         <?php
@@ -63,6 +67,8 @@
 
     <script src="script.js?v=20260330"></script>
     <script src="popup.js?v=20260330"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="slider.js?v=20260330"></script>
 </body>
 
 </html>
