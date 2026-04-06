@@ -601,9 +601,6 @@
 
 
 /* development-stages */
-.development-stages__title {
-  /* gap: 278px; */
-}
 
 .development-stages__slide {
   position: relative;
@@ -839,4 +836,33 @@
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+
+/* faq */
+
+.faq__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
+}
+
+.faq__title {
+  max-width: 536px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.faq__content {
+  flex: 1;
+  max-width: 1056px;
+  min-height: 100px;
+}
+
+.faq__question {
+  border-radius: 20px;
+  border: 1px solid var(--color-gray-18);
+  padding: 40px;
+  background-color: var(--color-gray-17);
 }

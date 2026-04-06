@@ -133,6 +133,25 @@
 
         <?php include __DIR__ . '/components/section-stages.php'; ?>
 
+        <section class="faq">
+            <div class="faq__wrapper">
+                <?php
+                renderSectionTitle(
+                    'Частые вопросы',
+                    'Популярные вопросы по услуге',
+                    'faq__title'
+                );
+                ?>
+                <div class="faq__content">
+                    <div class="faq__card">
+                        <div class="faq__question">
+                            <h3 class="faq__question-title">Сколько стоит разработка сайта на wordpress?</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <?php include __DIR__ . '/components/section-about.php'; ?>
 
         <?php
