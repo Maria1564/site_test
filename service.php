@@ -52,6 +52,8 @@
 
         <?php include __DIR__ . '/components/section-stages.php'; ?>
 
+        <?php include __DIR__ . '/components/section-faq.php'; ?>
+
         <?php include __DIR__ . '/components/section-about.php'; ?>
 
         <?php
