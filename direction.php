@@ -248,7 +248,7 @@
     <script src="script.js?v=20260408"></script>
     <script src="popup.js?v=20260330"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="slider.js?v=20260330"></script>
+    <script src="slider.js?v=20260408"></script>
 </body>
 
 </html>

@@ -820,6 +820,13 @@
     line-height: 1.35;
   }
 
+  .development-stages__top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 770px) {
   .development-stages__slide:hover::before {
     opacity: 0;
   }
@@ -830,11 +837,6 @@
 
   .development-stages__slide.swiper-slide-active::before {
     opacity: 1;
-  }
-
-  .development-stages__top {
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
 
