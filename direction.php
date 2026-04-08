@@ -146,6 +146,86 @@
                     <div class="faq__card">
                         <div class="faq__question">
                             <h3 class="faq__question-title">Сколько стоит разработка сайта на wordpress?</h3>
+                            <div class="faq__arrow">
+                                <img src="./img/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <div class="faq__text paragraph">
+                                Создаётся на no-code платформе с уникальным дизайном под васСоздаётся на no-code
+                                платформе с уникальным дизайном под васСоздаётся на no-code платформе с уникальным
+                                дизайном под васСоздаётся на no-code платформе с уникальным дизайном под васСоздаётся на
+                                no-code платформе с уникальным дизайном под васСоздаётся на no-code платформе с
+                                уникальным дизайном под васСоздаётся на no-code платформе с уникальным дизайном под вас
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq__card">
+                        <div class="faq__question">
+                            <h3 class="faq__question-title">Ешё один вопрос более длинный в одну или несколько строк чтобы показать как будет выглядеть длдинные вопросы</h3>
+                            <div class="faq__arrow">
+                                <img src="./img/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <div class="faq__text paragraph">
+                                Создаётся на no-code платформе с уникальным дизайном под васСоздаётся на no-code
+                                платформе с уникальным дизайном под васСоздаётся на no-code платформе с уникальным
+                                дизайном под васСоздаётся на no-code платформе с уникальным дизайном под васСоздаётся на
+                                no-code платформе с уникальным дизайном под васСоздаётся на no-code платформе с
+                                уникальным дизайном под васСоздаётся на no-code платформе с уникальным дизайном под вас
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq__card">
+                        <div class="faq__question">
+                            <h3 class="faq__question-title">Сколько стоит разработка сайта на wordpress?</h3>
+                            <div class="faq__arrow">
+                                <img src="./img/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <div class="faq__text paragraph">
+                                Создаётся на no-code платформе с уникальным дизайном под васСоздаётся на no-code
+                                платформе с уникальным дизайном под васСоздаётся на no-code платформе с уникальным
+                                дизайном под васСоздаётся на no-code платформе с уникальным дизайном под васСоздаётся на
+                                no-code платформе с уникальным дизайном под васСоздаётся на no-code платформе с
+                                уникальным дизайном под васСоздаётся на no-code платформе с уникальным дизайном под вас
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq__card">
+                        <div class="faq__question">
+                            <h3 class="faq__question-title">Сколько стоит разработка сайта на wordpress?</h3>
+                            <div class="faq__arrow">
+                                <img src="./img/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <div class="faq__text paragraph">
+                                Создаётся на no-code платформе с уникальным дизайном под васСоздаётся на no-code
+                                платформе с уникальным дизайном под васСоздаётся на no-code платформе с уникальным
+                                дизайном под васСоздаётся на no-code платформе с уникальным дизайном под васСоздаётся на
+                                no-code платформе с уникальным дизайном под васСоздаётся на no-code платформе с
+                                уникальным дизайном под васСоздаётся на no-code платформе с уникальным дизайном под вас
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq__card">
+                        <div class="faq__question">
+                            <h3 class="faq__question-title">Сколько стоит разработка сайта на wordpress?</h3>
+                            <div class="faq__arrow">
+                                <img src="./img/arrow.svg" alt="arrow">
+                            </div>
+                        </div>
+                        <div class="faq__answer">
+                            <div class="faq__text paragraph">
+                                Создаётся на no-code платформе с уникальным дизайном под васСоздаётся на no-code
+                                платформе с уникальным дизайном под васСоздаётся на no-code платформе с уникальным
+                                дизайном под васСоздаётся на no-code платформе с уникальным дизайном под васСоздаётся на
+                                no-code платформе с уникальным дизайном под васСоздаётся на no-code платформе с
+                                уникальным дизайном под васСоздаётся на no-code платформе с уникальным дизайном под вас
+                            </div>
                         </div>
                     </div>
                 </div>

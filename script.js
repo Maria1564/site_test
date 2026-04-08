@@ -25,3 +25,53 @@ function updateHeaderStickyState() {
 
 window.addEventListener("scroll", updateHeaderStickyState);
 window.addEventListener("load", updateHeaderStickyState);
+
+
+const faq = document.querySelector(".faq__content");
+
+if (faq) {
+  faq.querySelectorAll(".faq__card").forEach((card) => {
+    const question = card.querySelector(".faq__question");
+    const answer = card.querySelector(".faq__answer");
+
+    if (!question || !answer) {
+      return;
+    }
+
+    if (question.classList.contains("faq__question_active")) {
+      answer.style.maxHeight = `${answer.scrollHeight}px`;
+    }
+  });
+
+  faq.addEventListener("click", (e) => {
+    const arrow = e.target.closest(".faq__arrow");
+
+    if (!arrow) {
+      return;
+    }
+
+    const card = arrow.closest(".faq__card");
+    const question = card?.querySelector(".faq__question");
+    const answer = card?.querySelector(".faq__answer");
+
+    if (!question || !answer) {
+      return;
+    }
+
+    const isOpen = question.classList.contains("faq__question_active");
+
+    if (isOpen) {
+      answer.style.maxHeight = `${answer.scrollHeight}px`;
+
+      requestAnimationFrame(() => {
+        question.classList.remove("faq__question_active");
+        answer.style.maxHeight = "0";
+      });
+
+      return;
+    }
+
+    question.classList.add("faq__question_active");
+    answer.style.maxHeight = `${answer.scrollHeight}px`;
+  });
+}
