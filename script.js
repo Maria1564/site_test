@@ -30,7 +30,37 @@ window.addEventListener("load", updateHeaderStickyState);
 const faq = document.querySelector(".faq__content");
 
 if (faq) {
-  faq.querySelectorAll(".faq__card").forEach((card) => {
+  const cards = faq.querySelectorAll(".faq__card");
+
+  const closeCard = (card) => {
+    const question = card.querySelector(".faq__question");
+    const answer = card.querySelector(".faq__answer");
+
+    if (!question || !answer) {
+      return;
+    }
+
+    answer.style.maxHeight = `${answer.scrollHeight}px`;
+
+    requestAnimationFrame(() => {
+      question.classList.remove("faq__question_active");
+      answer.style.maxHeight = "0";
+    });
+  };
+
+  const openCard = (card) => {
+    const question = card.querySelector(".faq__question");
+    const answer = card.querySelector(".faq__answer");
+
+    if (!question || !answer) {
+      return;
+    }
+
+    question.classList.add("faq__question_active");
+    answer.style.maxHeight = `${answer.scrollHeight}px`;
+  };
+
+  cards.forEach((card) => {
     const question = card.querySelector(".faq__question");
     const answer = card.querySelector(".faq__answer");
 
@@ -59,19 +89,17 @@ if (faq) {
     }
 
     const isOpen = question.classList.contains("faq__question_active");
+    const activeCard = faq.querySelector(".faq__question_active")?.closest(".faq__card");
 
     if (isOpen) {
-      answer.style.maxHeight = `${answer.scrollHeight}px`;
-
-      requestAnimationFrame(() => {
-        question.classList.remove("faq__question_active");
-        answer.style.maxHeight = "0";
-      });
-
+      closeCard(card);
       return;
     }
 
-    question.classList.add("faq__question_active");
-    answer.style.maxHeight = `${answer.scrollHeight}px`;
+    if (activeCard && activeCard !== card) {
+      closeCard(activeCard);
+    }
+
+    openCard(card);
   });
 }
