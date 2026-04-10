@@ -22,7 +22,6 @@
 
 .contacts-form__map {
     flex: 2;
-    /* flex-shrink: 1; */
 }
 
 .contacts-form__map {
@@ -108,6 +107,7 @@
     color: var(--color-white);
     font-size: 16px;
     font-weight: 500;
+    border-radius: 12px;
 }
 
 

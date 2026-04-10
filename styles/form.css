@@ -160,11 +160,19 @@
 @media (max-width: 1200px) {
     .form {
         flex-direction: column;
-        gap: 60px;
+        gap: 30px;
     }
 
     .form__description {
         margin-bottom: 50px;
+    }
+
+    .form__title {
+        margin-bottom: 10px;
+    }
+    
+    .form__description {
+        margin-bottom: 20px;
     }
 }
 
@@ -190,7 +198,7 @@
 
 @media (max-width: 730px) {
     .form {
-        padding: 10px;
+        padding: 20px 10px;
     }
 
     .form__socials {

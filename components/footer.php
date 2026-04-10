@@ -24,14 +24,6 @@
     </div>
 
     <div class="footer__other">
-      <div class="footer__projects">
-        <p class="footer__title">кейсы</p>
-        <ul class="footer__items">
-          <li><a href="#" class="footer__sub-title">Сайты</a></li>
-          <li><a href="#" class="footer__sub-title">Дизайн</a></li>
-          <li><a href="#" class="footer__sub-title">Реклама</a></li>
-        </ul>
-      </div>
 
       <div class="footer__services">
         <p class="footer__title">услуги</p>
@@ -83,10 +75,34 @@
               <a href="#" class="footer__sub-title">Внедрение телефонии</a>
             </li>
           </ul>
+          <ul class="footer__items">
+            <li>
+              <a href="#" class="footer__sub-title">Медийная реклама</a>
+            </li>
+            <li><a href="#" class="footer__sub-title">Веб-дизайн</a></li>
+            <li><a href="#" class="footer__sub-title">UI/UX</a></li>
+            <li>
+              <a href="#" class="footer__sub-title">Аутстаффинг дизайна</a>
+            </li>
+            <li>
+              <a href="#" class="footer__sub-title">Поддержка сайтов</a>
+            </li>
+            <li>
+              <a href="#" class="footer__sub-title">Лечение от вирусов</a>
+            </li>
+            <li>
+              <a href="#" class="footer__sub-title">CRM Bitrix24</a>
+            </li>
+            <li><a href="#" class="footer__sub-title">AMO CRM</a></li>
+            <li>
+              <a href="#" class="footer__sub-title">Внедрение телефонии</a>
+            </li>
+          </ul>
         </div>
       </div>
 
       <ul class="footer__nav">
+        <li><a href="./blog.php" class="footer__title">кейсы</a></li>
         <li><a href="./blog.php" class="footer__title">блог</a></li>
         <li><a href="#" class="footer__title">О нас</a></li>
         <li><a href="#" class="footer__title">Школа дизайна</a></li>
