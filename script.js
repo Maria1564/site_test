@@ -1,23 +1,25 @@
-const body = document.querySelector("body");
-const mobileMenu = body.querySelector(".mobile__menu");
-const btnOpenMenu = body.querySelector(".mobile__menu-btn");
-const btnCloseMenu = body.querySelector(".mobile__menu-cross");
+const html = document.querySelector("html");
+const mobileMenu = html.querySelector(".mobile__menu");
+const btnOpenMenu = html.querySelector(".mobile__menu-btn");
+const btnCloseMenu = html.querySelector(".mobile__menu-cross");
 
 btnOpenMenu.addEventListener("click", () => {
-  console.log("click");
   mobileMenu.style.transform = "translateX(0%)";
-  body.style.overflow = "hidden";
+  html.style.overflow = "hidden";
 });
 
 btnCloseMenu.addEventListener("click", () => {
   mobileMenu.style.transform = "translateX(100%)";
-  body.style.overflow = "auto";
+  html.style.overflow = "";
 });
 
 const headerContainer = document.querySelector(".header__container");
 const nav = document.querySelector(".header__nav");
 
+
 function updateHeaderStickyState() {
+
+  console.log(headerContainer, nav)
   const isSticky = window.scrollY > 140;
   headerContainer.classList.toggle("header__container_sticky", isSticky);
   nav.classList.toggle("header__nav_sticky", isSticky);

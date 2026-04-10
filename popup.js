@@ -13,7 +13,8 @@ const btnCloseResult = document.querySelector(".result__close-btn")
 const openPopup = (event) => {
     event.preventDefault()
     requestPopup.classList.add("request_open")
-    document.querySelector("body").style.overflow = "hidden"
+    console.log(document.querySelector("body"))
+    document.querySelector("html").style.overflow = "hidden"
 }
 
 contactBtnDesktop.addEventListener("click", openPopup)
@@ -26,16 +27,16 @@ btnRequest.addEventListener("click", () => {
 
 btnResult.addEventListener("click", () => {
     resultPopup.classList.remove("result_open")
-    document.querySelector("body").style.overflow = "auto"
+    document.querySelector("html").style.overflow = "auto"
 })
 
 
 btnCloseRequest.addEventListener("click", () => {
     requestPopup.classList.remove("request_open")
-    document.querySelector("body").style.overflow = "auto"
+    document.querySelector("html").style.overflow = "auto"
 })
 btnCloseResult.addEventListener("click", () => {
     resultPopup.classList.remove("result_open")
-    document.querySelector("body").style.overflow = "auto"
+    document.querySelector("html").style.overflow = "auto"
 })
 
