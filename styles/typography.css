@@ -119,3 +119,10 @@ h4 {
         font-size: 18px;
     }
 }
+
+@media (max-width: 485px) {
+    .subtitle,
+    .subsubtitle {
+        margin-bottom: 15px;
+    }
+}

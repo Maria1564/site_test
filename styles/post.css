@@ -85,6 +85,12 @@
 @media (max-width: 485px) {
     .post__header {
         flex-direction: column;
+        margin-bottom: 30px;
+        gap: 15px;
+    }
+
+    .post__content {
+        gap: 30px;
     }
 
     .user {

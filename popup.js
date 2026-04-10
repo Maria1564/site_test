@@ -11,9 +11,8 @@ const btnCloseRequest = document.querySelector(".request__close-btn")
 const btnCloseResult = document.querySelector(".result__close-btn")
 
 const openPopup = (event) => {
-    event.preventDefault()
+    event?.preventDefault()
     requestPopup.classList.add("request_open")
-    console.log(document.querySelector("body"))
     document.querySelector("html").style.overflow = "hidden"
 }
 
@@ -40,3 +39,11 @@ btnCloseResult.addEventListener("click", () => {
     document.querySelector("html").style.overflow = "auto"
 })
 
+
+const swiperWrapper = document.querySelector(".swiper-wrapper")
+
+swiperWrapper.addEventListener("click", (e) => {
+  if(e.target.closest(".development-stages__label")) {
+    openPopup()
+  }
+})

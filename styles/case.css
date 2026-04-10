@@ -6,7 +6,7 @@
 
 .case__wrapper {
     padding-top: 168px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .case__chips {
@@ -49,7 +49,6 @@
 }
 
 .case__btn {
-    margin-bottom: 200px;
     width: 100%;
     padding: 50px 0;
     background: transparent;
@@ -80,10 +79,6 @@
     font-weight: 500;
 }
 
-.case__form {
-    margin-bottom: 200px;
-}
-
 .related-case__list {
     display: flex;
     flex-direction: column;
@@ -91,13 +86,14 @@
 }
 
 
-@media (max-width: 730px) {
-
-    .case__wrapper,
-    .case__form,
-    .case__btn {
+@media (max-width: 1025px) {
+    .case__wrapper {
         margin-bottom: 100px;
     }
+
+}
+
+@media (max-width: 730px) {
 
     .case__btn {
         padding: 40px 0;
@@ -109,5 +105,12 @@
 
     .case__wrapper {
         padding-top: 100px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 485px) {
+    .case__content {
+        gap: 30px;
     }
 }

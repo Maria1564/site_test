@@ -18,8 +18,6 @@ const nav = document.querySelector(".header__nav");
 
 
 function updateHeaderStickyState() {
-
-  console.log(headerContainer, nav)
   const isSticky = window.scrollY > 140;
   headerContainer.classList.toggle("header__container_sticky", isSticky);
   nav.classList.toggle("header__nav_sticky", isSticky);

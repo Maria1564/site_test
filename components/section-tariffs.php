@@ -55,5 +55,5 @@
         </div>
     </div>
 
-    <button class="tariffs__action"><img src="./img/telegram-white.svg" alt="telegram">Запросить расчёт именно по вашему проекту </button>
+    <button class="tariffs__action"><img src="./img/telegram-white.svg" alt="telegram"><span class="tariffs__action-text">Запросить расчёт именно по вашему проекту</span> </button>
 </section>

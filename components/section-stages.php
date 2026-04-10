@@ -35,7 +35,7 @@
             <div class="development-stages__slide swiper-slide">
                 <div class="development-stages__top">
                     <span class="development-stages__step">2</span>
-                    <span class="development-stages__label">Заказать этот этап</span>
+                    <button class="development-stages__label">Заказать этот этап</button>
                 </div>
                 <div class="development-stages__content">
                     <div class="development-stages__days">3-4 дня</div>
@@ -47,7 +47,7 @@
             <div class="development-stages__slide swiper-slide">
                 <div class="development-stages__top">
                     <span class="development-stages__step">3</span>
-                    <span class="development-stages__label">Заказать этот этап</span>
+                    <button class="development-stages__label">Заказать этот этап</button>
                 </div>
                 <div class="development-stages__content">
                     <div class="development-stages__days">3-4 дня</div>
@@ -71,7 +71,7 @@
             <div class="development-stages__slide swiper-slide">
                 <div class="development-stages__top">
                     <span class="development-stages__step">1</span>
-                    <span class="development-stages__label">Заказать этот этап</span>
+                    <button class="development-stages__label">Заказать этот этап</button>
                 </div>
                 <div class="development-stages__content">
                     <div class="development-stages__days">3-4 дня</div>

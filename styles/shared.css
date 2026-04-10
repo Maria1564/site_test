@@ -91,10 +91,6 @@ input.inp::placeholder {
   margin-top: 20px;
 }
 
-.related {
-  margin: 200px 0;
-}
-
 .related__title {
   text-align: center;
   font-size: 72px;
@@ -123,10 +119,6 @@ input.inp::placeholder {
     font-size: 40px;
   }
 
-  .related {
-    margin: 100px 0;
-  }
-
   .related__list {
     margin-top: 30px;
   }
@@ -148,4 +140,10 @@ input.inp::placeholder {
     margin-top: 100px;
   }
 
+}
+
+@media (max-width: 730px) {
+  section {
+    margin-top: 60px;
+  }
 }

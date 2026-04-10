@@ -115,3 +115,9 @@
         margin-top: 30px;
     }
 }
+
+@media (max-width: 460px) {
+    .services__card {
+        min-height: 215px;
+    }
+}

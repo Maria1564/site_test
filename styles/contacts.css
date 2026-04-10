@@ -13,7 +13,6 @@
     border-radius: 20px;
     overflow: hidden;
     margin-top: 80px;
-    margin-bottom: 146px;
 }
 
 .contacts-form__content {
@@ -145,21 +144,29 @@
     }
 }
 
-@media (max-width: 735px ) {
-.contacts-form__content {
-    gap: 80px;
-}
+@media (max-width: 730px) {
+    .contacts-form__content {
+        gap: 40px;
+    }
 
-   .contacts-form__socials-list {
-    flex-direction: column;
-    gap: 20px;
-   }
+    .contacts-form__info {
+        gap: 20px;
+    }
 
-   .contacts-form__link {
+    .contacts-form__socials-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contacts-form__link {
         width: 100%;
     }
 
     .contacts-form__text {
         font-size: 18px;
+    }
+
+    .contacts-form {
+        margin-top: 60px;
     }
 }

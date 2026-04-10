@@ -47,6 +47,12 @@
   }
 }
 
+@media (max-width: 730px) {
+  .portfolio__btn {
+    margin-top: 20px;
+    padding: 30px 0;
+  }
+}
 
 /* cta */
 
@@ -164,7 +170,7 @@
   display: flex;
   align-items: stretch;
   gap: 20px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   margin-top: 60px;
 }
@@ -221,6 +227,28 @@
   }
 }
 
+@media (max-width: 1140px) {
+  .benefits__cards{
+    flex-wrap: wrap;
+  }
+
+  .benefits__card {
+    flex-basis: 49%;
+  }
+
+
+  .benefits__card:last-child {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefits__card:last-child > .benefits__card-img {
+    width: 62%;
+    align-self: end;
+  }
+}
+
 @media (max-width: 1090px) {
   .benefits__cards {
     gap: 12px;
@@ -233,6 +261,40 @@
   .benefits__card-content {
     margin-top: 40px;
     padding: 0px 8px 24px 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .benefits__card {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefits__card-content {
+    margin-top: 20px;
+  }
+
+  .benefits__card > .benefits__card-img {
+    width: 62%;
+    align-self: end;
+  }
+}
+
+@media (max-width: 730px) {
+  .benefits__cards {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .benefits__card-title {
+    font-size: 20px;
+  }
+
+  .benefits__card-text {
+    font-size: 12px;
+    line-height: 140%;
   }
 }
 
@@ -524,6 +586,10 @@
   .tariffs__action {
     font-size: 14px;
   }
+
+   .tariffs__card {
+    padding: 20px 0 20px 30px;
+  }
 }
 
 @media (max-width: 730px) {
@@ -543,6 +609,16 @@
 @media (max-width: 430px) {
   .tariffs__action {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 385px) {
+  .tariffs__action-text {
+    display: none;
+  }
+
+  .tariffs__action {
+    padding: 25px 0;
   }
 }
 
@@ -597,6 +673,10 @@
   .company-intro__title {
     font-size: 32px;
   }
+
+  .company-intro {
+    margin-top: 60px;
+  }
 }
 
 
@@ -635,7 +715,7 @@
 
 .development-stages__top {
   flex-grow: 1;
-  display: flex ;
+  display: flex;
   justify-content: space-between;
   gap: 20px;
   align-items: start;
@@ -655,6 +735,12 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 140%;
+  color: var(--color-white);
+  transition: background .5s;
+}
+
+.development-stages__label:hover {
+  background-color: var(--color-gray-16);
 }
 
 .development-stages__content {
@@ -681,7 +767,7 @@
   color: var(--color-white);
 }
 
-.development-stages__text{
+.development-stages__text {
   font-size: 20px;
   font-weight: 400;
   line-height: 140%;
@@ -754,6 +840,7 @@
   .development-stages__days,
   .development-stages__text {
     font-size: 16px;
+    
   }
 
   .development-stages__card-title {
@@ -862,7 +949,7 @@
   max-width: 1056px;
   display: flex;
   flex-direction: column;
-  gap: 10px ;
+  gap: 10px;
 }
 
 
@@ -896,7 +983,7 @@
 
 .faq__question.faq__question_active .faq__arrow {
   transform: rotate(90deg);
-} 
+}
 
 .faq__question-title {
   font-size: 24px;
@@ -943,13 +1030,22 @@
   }
 
   .faq__text {
-  padding: 0 20px 20px;
-}
+    padding: 0 20px 20px;
+  }
 }
 
 @media (max-width: 730px) {
   .faq__question-title {
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .faq__arrow {
+    padding: 13px 16px;
+  }
+
+  .faq__arrow>img {
+    aspect-ratio: 15 / 26;
+    width: 10px;
   }
 }
