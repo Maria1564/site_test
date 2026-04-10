@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Блог</title>
-    <link rel="stylesheet" href="styles/fonts.css?v=20260408" />
-    <link rel="stylesheet" href="styles/shared.css?v=20260408" />
-    <link rel="stylesheet" href="styles/mobile-menu.css?v=20260408" />
-    <link rel="stylesheet" href="styles/header-nav.css?v=20260408">
-    <link rel="stylesheet" href="styles/footer.css?v=20260408">
-    <link rel="stylesheet" href="styles/blog.css?v=20260408">
-    <link rel="stylesheet" href="styles/popups.css?v=20260408">
-    <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260408">
-    <link rel="stylesheet" href="styles/blog-card.css?v=20260408">
+<link rel="stylesheet" href="styles/fonts.css?v=20260410" />
+<link rel="stylesheet" href="styles/shared.css?v=20260410" />
+<link rel="stylesheet" href="styles/mobile-menu.css?v=20260410" />
+<link rel="stylesheet" href="styles/header-nav.css?v=20260410">
+<link rel="stylesheet" href="styles/footer.css?v=20260410">
+<link rel="stylesheet" href="styles/blog.css?v=20260410">
+<link rel="stylesheet" href="styles/popups.css?v=20260410">
+<link rel="stylesheet" href="styles/breadcrumbs.css?v=20260410">
+<link rel="stylesheet" href="styles/blog-card.css?v=20260410">
 </head>
 
 <body>
@@ -105,8 +105,8 @@
         <?php include __DIR__ . '/components/footer.php'; ?>
     </div>
 
-    <script src="script.js?v=20260408"></script>
-    <script src="popup.js?v=20260329"></script>
+<script src="script.js?v=20260410"></script>
+<script src="popup.js?v=20260410"></script>
 </body>
 
 </html>
