@@ -19,7 +19,7 @@
 
 <body>
 
-
+    <?php include __DIR__ . '/components/popups.php'; ?>
     <?php include __DIR__ . '/components/mobile-menu.php'; ?>
     <?php include __DIR__ . '/components/header-nav.php'; ?>
 
@@ -45,7 +45,7 @@
                 </div>
 
                 <div class="solitions-grid">
-                    <a class="solution-card" href="#" data-tags="medicine services">
+                    <a class="solution-card" href="./solutions-subcategory.php" data-tags="medicine services">
 
                         <div class="solution-card__tags">
                             <div class="solution-card__tag">Медицина и красота</div>
@@ -60,7 +60,7 @@
 
                     </a>
 
-                    <a class="solution-card" href="#" data-tags="real-estate services">
+                    <a class="solution-card" href="./solutions-subcategory.php" data-tags="real-estate services">
 
                         <div class="solution-card__tags">
                             <div class="solution-card__tag">Недвижимость</div>
@@ -75,7 +75,7 @@
 
                     </a>
 
-                    <a class="solution-card" href="#" data-tags="medicine services">
+                    <a class="solution-card" href="./solutions-subcategory.php" data-tags="medicine services">
 
                         <div class="solution-card__tags">
                             <div class="solution-card__tag">Медицина и красота</div>
@@ -90,7 +90,7 @@
 
                     </a>
 
-                    <a class="solution-card" href="#" data-tags="medicine services">
+                    <a class="solution-card" href="./solutions-subcategory.php" data-tags="medicine services">
 
                         <div class="solution-card__tags">
                             <div class="solution-card__tag">Медицина и красота</div>
@@ -104,7 +104,7 @@
                         </div>
 
                     </a>
-                    <a class="solution-card" href="#" data-tags="medicine services">
+                    <a class="solution-card" href="./solutions-subcategory.php" data-tags="medicine services">
 
                         <div class="solution-card__tags">
                             <div class="solution-card__tag">Медицина и красота</div>
@@ -119,7 +119,7 @@
 
                     </a>
 
-                    <a class="solution-card" href="#" data-tags="real-estate services">
+                    <a class="solution-card" href="./solutions-subcategory.php" data-tags="real-estate services">
 
                         <div class="solution-card__tags">
                             <div class="solution-card__tag">Недвижимость</div>
@@ -145,6 +145,7 @@
 
 
     <script src="script.js?v=20260507"></script>
+    <script src="popup.js?v=20260410"></script>
 </body>
 
 </html>

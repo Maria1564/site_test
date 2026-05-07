@@ -20,7 +20,7 @@
 
 <body>
 
-
+    <?php include __DIR__ . '/components/popups.php'; ?>
     <?php include __DIR__ . '/components/mobile-menu.php'; ?>
     <?php include __DIR__ . '/components/header-nav.php'; ?>
 
@@ -97,6 +97,7 @@
 
 
     <script src="script.js?v=20260410"></script>
+    <script src="popup.js?v=20260410"></script>
 </body>
 
 </html>

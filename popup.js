@@ -10,6 +10,16 @@ const btnResult = document.querySelector(".result__btn")
 const btnCloseRequest = document.querySelector(".request__close-btn")
 const btnCloseResult = document.querySelector(".result__close-btn")
 
+const closeRequestPopup = () => {
+    requestPopup.classList.remove("request_open")
+    document.querySelector("html").style.overflow = "auto"
+}
+
+const closeResultPopup = () => {
+    resultPopup.classList.remove("result_open")
+    document.querySelector("html").style.overflow = "auto"
+}
+
 const openPopup = (event) => {
     event?.preventDefault()
     requestPopup.classList.add("request_open")
@@ -25,18 +35,27 @@ btnRequest.addEventListener("click", () => {
 })
 
 btnResult.addEventListener("click", () => {
-    resultPopup.classList.remove("result_open")
-    document.querySelector("html").style.overflow = "auto"
+    closeResultPopup()
 })
 
 
 btnCloseRequest.addEventListener("click", () => {
-    requestPopup.classList.remove("request_open")
-    document.querySelector("html").style.overflow = "auto"
+    closeRequestPopup()
 })
 btnCloseResult.addEventListener("click", () => {
-    resultPopup.classList.remove("result_open")
-    document.querySelector("html").style.overflow = "auto"
+    closeResultPopup()
+})
+
+requestPopup.addEventListener("click", (event) => {
+    if (event.target === requestPopup) {
+        closeRequestPopup()
+    }
+})
+
+resultPopup.addEventListener("click", (event) => {
+    if (event.target === resultPopup) {
+        closeResultPopup()
+    }
 })
 
 
