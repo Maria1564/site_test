@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="styles/header-nav.css?v=20260410">
     <link rel="stylesheet" href="styles/footer.css?v=20260410">
     <link rel="stylesheet" href="styles/post.css?v=20260410">
+    <link rel="stylesheet" href="styles/case-card.css?v=20260410">
     <link rel="stylesheet" href="styles/popups.css?v=20260410">
     <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260410">
     <link rel="stylesheet" href="styles/blog-card.css?v=20260410">
     <link rel="stylesheet" href="styles/typography.css?v=20260410">
     <link rel="stylesheet" href="styles/form.css?v=20260410">
-    <link rel="stylesheet" href="styles/post-widgets.css?v=20260410">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/post-widgets.css?v=20260507">
 
 </head>
 
@@ -30,8 +32,8 @@
         <?php include __DIR__ . '/components/breadcrumbs.php'; ?>
         <?php
         renderBreadcrumbs(
-            ['Главная', "Новости и статьи"],
-            'Сколько стоит сделать сайт: полный разбор'
+            ['Главная', "Решения", "По типам бизнеса", "Стоматологии"],
+            'Сколько стоит сделать сайт для стоматологии'
         );
         ?>
         <div class="post__header">
@@ -123,7 +125,11 @@
                         </ul>
                     </ul>
                 </div>
+                <div class="">
+                    <h2 class="subtitle">Наши кейсы</h2>
+                    <?php include __DIR__ . '/components/widgets/slider-widget.php'; ?>
 
+                </div>
                 <div class="block-list">
                     <h4>
                         Нумерованный список
@@ -190,7 +196,8 @@
         <?php include __DIR__ . '/components/footer.php'; ?>
     </div>
 
-    <script src="script.js?v=20260410"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js?v=20260507"></script>
     <script src="popup.js?v=20260410"></script>
 </body>
 

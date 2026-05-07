@@ -129,3 +129,15 @@ if (solutionsFilter) {
     });
   });
 }
+
+const widgetSliders = document.querySelectorAll(".widget-slider");
+
+if (widgetSliders.length && typeof Swiper !== "undefined") {
+  widgetSliders.forEach((slider) => {
+    new Swiper(slider, {
+      slidesPerView: "auto",
+      spaceBetween: 20,
+      watchOverflow: true,
+    });
+  });
+}
