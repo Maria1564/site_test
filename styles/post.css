@@ -21,6 +21,10 @@
     margin: 20px 0 60px;
 }
 
+.post__form {
+    margin-top: 200px;
+}
+
 .user {
     width: 357px;
     padding: 15px;
@@ -69,6 +73,12 @@
     border-radius: 20px;
 }
 
+@media (max-width: 950px) {
+    .post__form {
+      margin-top: 100px;
+    }
+}
+
 
 @media (max-width: 730px) {
     .post__container {
@@ -79,7 +89,9 @@
         height: 388px;
     }
 
-
+    .post__form {
+        margin-top: 60px;
+    }
 }
 
 @media (max-width: 485px) {
