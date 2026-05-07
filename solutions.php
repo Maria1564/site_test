@@ -47,7 +47,7 @@
 
             <section class="solutions__section">
                 <div class="solutions__layout">
-                    <a class="solutions__card" href="#">
+                    <a class="solutions__card" href="./solutions-category.php">
                         <div class="solutions__card-wrapper">
                             <img src="img/solutions/one.svg" alt="" class="solutions__card-number">
                             <div class="solutions__content">
@@ -57,7 +57,7 @@
                         </div>
                     </a>
 
-                    <a class="solutions__card" href="#">
+                    <a class="solutions__card" href="./solutions-category.php">
                         <div class="solutions__card-wrapper">
                             <img src="img/solutions/two.svg" alt="" class="solutions__card-number">
                             <div class="solutions__content">
@@ -67,7 +67,7 @@
                         </div>
                     </a>
 
-                    <a class="solutions__card" href="#">
+                    <a class="solutions__card" href="./solutions-category.php">
                         <div class="solutions__card-wrapper">
                             <img src="img/solutions/three.svg" alt="" class="solutions__card-number">
                             <div class="solutions__content">
@@ -77,7 +77,7 @@
                         </div>
                     </a>
 
-                    <a class="solutions__card" href="#">
+                    <a class="solutions__card" href="./solutions-category.php">
                         <div class="solutions__card-wrapper">
                             <img src="img/solutions/four.svg" alt="" class="solutions__card-number">
                             <div class="solutions__content">

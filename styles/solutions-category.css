@@ -27,11 +27,11 @@
 }
 
 .solutions-filter__item:hover {
-    background-color: var(--color-gray-10); 
+    background-color: var(--color-gray-10);
 }
 
 .solutions-filter__item_active {
-   background-color: var(--color-gray-10); 
+    background-color: var(--color-gray-10);
 }
 
 .solitions-grid {
@@ -48,7 +48,7 @@
             rgba(92, 5, 12, 0.55) 28%,
             rgba(24, 24, 24, 0) 55%),
         #181818;
-        background-clip: padding-box;
+    background-clip: padding-box;
     border: 1px solid #FFFFFF33;
     border-radius: 8px;
     backdrop-filter: blur(8px);
@@ -96,4 +96,47 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;
+}
+
+
+@media (max-width: 1500px) {
+    .solitions-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1200px) {
+    .solitions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 730px) {
+    .solutions-filter {
+        margin-bottom: 40px;
+    }
+
+    .solutions-category__wrapper {
+        padding-top: calc(65px + 90px - 22px);
+    }
+}
+
+@media (max-width: 768px) {
+     .solitions-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .solution-card__tag {
+        font-size: 12px;
+    }
+
+    .solution-card__content {
+        gap: 10px;
+    }
+
+    .solution-card__title {
+        font-size: 20px;
+    }
 }
