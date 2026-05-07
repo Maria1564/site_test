@@ -27,7 +27,7 @@
       <li class="header__nav-item"><a href="./blog.php">блог</a></li>
       <li class="header__nav-item"><a href="#">о нас</a></li>
       <li class="header__nav-item header__nav-item_with-star">
-        <img src="img/star.svg" alt="star" width="8" height="8" /><a href="#">школа дизайна</a>
+        <img src="img/star.svg" alt="star" width="8" height="8" /><a href="./solutions.php">решения</a>
       </li>
       <li class="header__nav-item"><a href="./contacts.php">контакты</a></li>
     </ul>
