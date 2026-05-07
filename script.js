@@ -103,3 +103,29 @@ if (faq) {
     openCard(card);
   });
 }
+
+const solutionsFilter = document.querySelector(".solutions-filter");
+
+if (solutionsFilter) {
+  const filterButtons = solutionsFilter.querySelectorAll(".solutions-filter__item");
+  const cards = document.querySelectorAll(".solution-card");
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.dataset.filter;
+
+      filterButtons.forEach((item) => {
+        item.classList.remove("solutions-filter__item_active");
+      });
+
+      button.classList.add("solutions-filter__item_active");
+
+      cards.forEach((card) => {
+        const tags = card.dataset.tags.split(" ");
+        const isVisible = filter === "all" || tags.includes(filter);
+
+        card.hidden = !isVisible;
+      });
+    });
+  });
+}
