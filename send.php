@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="styles/popups.css?v=20260410">
 <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260410">
 <link rel="stylesheet" href="styles/blog-card.css?v=20260410">
-<link rel="stylesheet" href="styles/typography.css?v=20260410">
+<link rel="stylesheet" href="styles/typography.css?v=20260507">
 
 </head>
 

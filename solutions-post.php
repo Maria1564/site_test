@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/popups.css?v=20260410">
     <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260410">
     <link rel="stylesheet" href="styles/blog-card.css?v=20260410">
-    <link rel="stylesheet" href="styles/typography.css?v=20260410">
+    <link rel="stylesheet" href="styles/typography.css?v=20260507">
     <link rel="stylesheet" href="styles/form.css?v=20260410">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/post-widgets.css?v=20260507">

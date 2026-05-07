@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260410">
 <link rel="stylesheet" href="styles/case.css?v=20260410">
 <link rel="stylesheet" href="styles/case-card.css?v=20260410">
-<link rel="stylesheet" href="styles/typography.css?v=20260410">
+<link rel="stylesheet" href="styles/typography.css?v=20260507">
 <link rel="stylesheet" href="styles/form.css?v=20260410">
 
 </head>

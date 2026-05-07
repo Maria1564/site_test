@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="styles/footer.css?v=20260410">
 <link rel="stylesheet" href="styles/popups.css?v=20260410">
 <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260410">
-<link rel="stylesheet" href="styles/typography.css?v=20260410">
+<link rel="stylesheet" href="styles/typography.css?v=20260507">
 <link rel="stylesheet" href="styles/section-title.css?v=20260410">
 <link rel="stylesheet" href="styles/case-card.css?v=20260410">
 <link rel="stylesheet" href="styles/sections.css?v=20260410">

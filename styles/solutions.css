@@ -86,6 +86,10 @@
     position: absolute;
     top: 0;
     left: 52px;
+    z-index: 0;
+    pointer-events: none;
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 84%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 84%, transparent 100%);
 }
 
 .solutions__content {
