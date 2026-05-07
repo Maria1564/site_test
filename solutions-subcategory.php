@@ -112,8 +112,8 @@
         <?php include __DIR__ . '/components/footer.php'; ?>
     </div>
 
-<script src="script.js?v=20260410"></script>
-<script src="popup.js?v=20260410"></script>
+<script src="script.js?v=20260507"></script>
+<script src="popup.js?v=20260507"></script>
 </body>
 
 </html>

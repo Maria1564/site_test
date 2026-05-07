@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/mobile-menu.css?v=20260410" />
     <link rel="stylesheet" href="styles/header-nav.css?v=20260410">
     <link rel="stylesheet" href="styles/footer.css?v=20260410">
-    <link rel="stylesheet" href="styles/post.css?v=20260410">
+    <link rel="stylesheet" href="styles/post.css?v=20260507">
     <link rel="stylesheet" href="styles/case-card.css?v=20260410">
     <link rel="stylesheet" href="styles/popups.css?v=20260410">
     <link rel="stylesheet" href="styles/breadcrumbs.css?v=20260410">
@@ -125,11 +125,12 @@
                         </ul>
                     </ul>
                 </div>
-                <div class="">
-                    <h2 class="subtitle">Наши кейсы</h2>
-                    <?php include __DIR__ . '/components/widgets/slider-widget.php'; ?>
-
-                </div>
+            </div>
+            <div class="">
+                <h2 class="subtitle">Наши кейсы</h2>
+                <?php include __DIR__ . '/components/widgets/slider-widget.php'; ?>
+            </div>
+            <div class="">
                 <div class="block-list">
                     <h4>
                         Нумерованный список
@@ -158,6 +159,8 @@
             </div>
 
         </div>
+
+    </div>
 
     </div>
 
@@ -198,7 +201,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js?v=20260507"></script>
-    <script src="popup.js?v=20260410"></script>
+    <script src="popup.js?v=20260507"></script>
 </body>
 
 </html>
